@@ -23,7 +23,7 @@ import lombok.Setter;
 @Setter
 public class UserIdentity extends DefaultUserIdentity {
 
-	// Serialisation version --------------------------------------------------
+	// Serialisation version ---------------------------------------------------fefefe
 
 	private static final long serialVersionUID = 1L;
 
