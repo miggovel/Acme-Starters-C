@@ -1,0 +1,42 @@
+Work Plan - Acme-Starters-C
+===========================
+
+Worker 1 - Starter and branding
+- Instantiate starter "Hello-World" as project "Acme-Starters-C".
+- Adapt corporate visuals in:
+  - src/main/resources/META-INF/resources/images/banner.png
+  - src/main/resources/META-INF/resources/images/logo.png
+  - src/main/resources/META-INF/resources/images/favicon.ico
+  - src/main/resources/META-INF/resources/images/favicon.png
+
+Worker 2 - Administrator seed data
+- Create administrator accounts in initial data:
+  - administrator1 / administrator1
+  - administrator2 / administrator2
+- Files:
+  - src/main/resources/WEB-INF/data/initial/batch-01/user-account.csv
+  - src/main/resources/WEB-INF/data/initial/batch-01/administrator.csv
+
+Worker 3 - Constraints from Model-CG.ufx
+- Implement constraints:
+  - ValidHeader: NotBlank + Length(1..75)
+  - ValidText: NotBlank + Length(1..255)
+  - ValidTicker: NotBlank + Pattern("^[A-Z]{2}[0-9]{2}-\\w{5,10}$")
+- Files:
+  - src/main/java/acme/constraints/ValidHeader.java
+  - src/main/java/acme/constraints/ValidText.java
+  - src/main/java/acme/constraints/ValidTicker.java
+
+Asset sizes in this project
+- banner.png: 656x150 px
+- logo.png: 419x71 px
+- favicon.ico: 16x16 px
+- favicon.png: 168x159 px
+
+Recommended delivery check
+1. Start application in a clean machine profile.
+2. Verify login with administrator1/administrator1 and administrator2/administrator2.
+3. Verify banner/logo/favicon render correctly in header, footer and browser tab.
+4. Package deliverable from workspace root with:
+   package-project.cmd <workgroup-code> <deliverable-code> Acme-Starters-C
+5. Download final zip from EV delivery center and retest in a different computer.
