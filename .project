@@ -39,5 +39,10 @@
 			<type>2</type>
 			<locationURI>WORKSPACE_LOC/Frameworks/Acme-Framework-26.2.0/target/classes</locationURI>
 		</link>
+		<link>
+			<name>target/classes</name>
+			<type>2</type>
+			<location>//C:/Workspace-26/Projects/Acme-Starters-26.1.0/target/classes/</location>
+		</link>
 	</linkedResources>
 </projectDescription>
