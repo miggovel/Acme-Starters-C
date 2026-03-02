@@ -88,31 +88,16 @@ public class Sponsorship extends AbstractEntity {
 		return result;
 	}
 
+
 	@Transient
-	public Money getTotalMoney() {
-
-		Money result = new Money();
-		double sum = 0.0;
-
-		if (this.donations != null)
-			for (Donation d : this.donations)
-				if (d.getMoney() != null && "EUR".equals(d.getMoney().getCurrency()))
-					sum += d.getMoney().getAmount();
-
-		result.setCurrency("EUR");
-		result.setAmount(sum);
-
-		return result;
-	}
-
+	public Money	totalMoney;
 	// -----------------
 	// RELATIONSHIPS
 	// -----------------
 
-
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Sponsor sponsor;
+	private Sponsor	sponsor;
 
 }

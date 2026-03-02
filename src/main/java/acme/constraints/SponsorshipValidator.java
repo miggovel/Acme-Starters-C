@@ -3,63 +3,59 @@ package acme.constraints;
 
 import java.util.Date;
 
-import javax.validation.ConstraintValidator;
 import javax.validation.ConstraintValidatorContext;
 
-import acme.entities.sponsorships.Donation;
+import org.springframework.stereotype.Component;
+
+import acme.client.components.validation.AbstractValidator;
+import acme.client.components.validation.Validator;
+import acme.client.helpers.MomentHelper;
 import acme.entities.sponsorships.Sponsorship;
 
-public class SponsorshipValidator implements ConstraintValidator<ValidSponsorship, Sponsorship> {
+@Validator
+@Component
+public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sponsorship> {
+
+	@Override
+	protected void initialise(final ValidSponsorship annotation) {
+		assert annotation != null;
+	}
 
 	@Override
 	public boolean isValid(final Sponsorship sponsorship, final ConstraintValidatorContext context) {
+		assert context != null;
 
 		if (sponsorship == null)
 			return true;
 
-		boolean valid = true;
-
-		context.disableDefaultConstraintViolation();
-
-		//At least one donation
-		if (sponsorship.getDonations() == null || sponsorship.getDonations().isEmpty()) {
-			context.buildConstraintViolationWithTemplate("Sponsorship must have at least one donation").addPropertyNode("donations").addConstraintViolation();
-			valid = false;
-		}
-
-		//startMoment and endMoment in future + valid interval
+		// Validación de intervalo de fechas en el futuro
 		Date now = new Date();
-
 		Date start = sponsorship.getStartMoment();
 		Date end = sponsorship.getEndMoment();
 
-		if (start != null && start.before(now)) {
-			context.buildConstraintViolationWithTemplate("startMoment must be in the future").addPropertyNode("startMoment").addConstraintViolation();
-			valid = false;
+		if (start != null)
+			super.state(context, MomentHelper.isAfter(start, now), "startMoment", "acme.validation.sponsorship.start-moment.future");
+
+		if (end != null)
+			super.state(context, MomentHelper.isAfter(end, now), "endMoment", "acme.validation.sponsorship.end-moment.future");
+
+		if (start != null && end != null)
+			super.state(context, MomentHelper.isBefore(start, end), "startMoment", "acme.validation.sponsorship.start-before-end");
+
+		// Validación de monthsActive
+		double months = sponsorship.monthsActive();
+		super.state(context, months >= 0, "startMoment", "acme.validation.sponsorship.months-active");
+
+		//  Validación de dinero total (solo Euros)
+		if (sponsorship.getTotalMoney() != null) {
+			boolean isEuro = "EUR".equals(sponsorship.getTotalMoney().getCurrency());
+			super.state(context, isEuro, "*", "acme.validation.sponsorship.only-euros");
+
+			boolean hasAtLeastOneDonation = sponsorship.getTotalMoney().getAmount() > 0;
+			super.state(context, hasAtLeastOneDonation, "*", "acme.validation.sponsorship.at-least-one-donation");
 		}
 
-		if (end != null && end.before(now)) {
-			context.buildConstraintViolationWithTemplate("endMoment must be in the future").addPropertyNode("endMoment").addConstraintViolation();
-			valid = false;
-		}
-
-		// start < end
-		if (start != null && end != null && start.after(end)) {
-			context.buildConstraintViolationWithTemplate("startMoment must be before endMoment").addPropertyNode("startMoment").addConstraintViolation();
-			valid = false;
-		}
-
-		//Only Euros accepted in donations
-		if (sponsorship.getDonations() != null)
-			for (Donation donation : sponsorship.getDonations())
-				if (donation.getMoney() != null && !"EUR".equals(donation.getMoney().getCurrency())) {
-
-					context.buildConstraintViolationWithTemplate("Only Euros are accepted").addPropertyNode("donations").addConstraintViolation();
-
-					valid = false;
-					break;
-				}
-
-		return valid;
+		//  Resultado final
+		return !super.hasErrors(context);
 	}
 }

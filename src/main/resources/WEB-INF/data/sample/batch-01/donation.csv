@@ -1,0 +1,51 @@
+key,name,notes,money,kind,key:sponsorship
+donation-00,John Doe,"Lorem ipsum dolor sit amet, consectetur adipiscing",EUR 100.00,ALTRUIST,sponsorship-00
+donation-01,L,"Notas cortas de prueba",EUR 0.01,REWARDED,sponsorship-01
+donation-02,Lo,"Otra nota corta",EUR 9999.99,CELEBRATED,sponsorship-02
+donation-03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod te","Nota larga de ejemplo",EUR 50.50,ALTRUIST,sponsorship-03
+donation-04,โลเร็ม อิปซัม,"Nota en tailandés",EUR 500.00,REWARDED,sponsorship-04
+donation-05,لوريم إيبسوم,"Nota en árabe",EUR 1000.00,CELEBRATED,sponsorship-05
+donation-06,洛伦·伊普เซน,"Nota en chino",EUR 250.25,ALTRUIST,sponsorship-06
+donation-07,<marquee>Hacked</marquee>,"Nota con HTML",EUR 5.00,REWARDED,sponsorship-07
+donation-08,<script>alert('Hacked!');</script>,"Nota con script",EUR 0.99,CELEBRATED,sponsorship-08
+donation-09,' or 'A' = 'A',"Nota con caracteres especiales",EUR 100.00,ALTRUIST,sponsorship-09
+donation-10,"Lorem ipsum dolor sit","Texto corto",EUR 200.00,REWARDED,sponsorship-10
+donation-11,Lo-rem,"Variación corta",EUR 1.50,CELEBRATED,sponsorship-11
+donation-12,"Lorem ipsum dolor sit amet","Texto largo de ejemplo",EUR 500.50,ALTRUIST,sponsorship-12
+donation-13,โลเร็ม,"Tailandés corto",EUR 2.00,REWARDED,sponsorship-13
+donation-14,لوريم,"Árabe corto",EUR 3.75,CELEBRATED,sponsorship-14
+donation-15,洛伦,"Chino corto",EUR 10.00,ALTRUIST,sponsorship-15
+donation-16,"<b>Bold Test</b>","HTML en nombre",EUR 50.00,REWARDED,sponsorship-16
+donation-17,"<i>Italic Test</i>","HTML en nombre",EUR 100.00,CELEBRATED,sponsorship-17
+donation-18,' OR '1'='1',"Prueba de caracteres especiales",EUR 0.50,ALTRUIST,sponsorship-18
+donation-19,"Lorem ipsum dolor sit","Descripción larga",EUR 250.00,REWARDED,sponsorship-19
+donation-20,Lo-rem ipsum,"Texto mixto",EUR 150.00,CELEBRATED,sponsorship-20
+donation-21,"Lorem ipsum dolor sit amet","Descripción para test",EUR 100.00,ALTRUIST,sponsorship-21
+donation-22,โลเร็ม อิปซัม,"Tailandés ejemplo",EUR 75.75,REWARDED,sponsorship-22
+donation-23,لوريم إيبسوم,"Árabe ejemplo",EUR 300.00,CELEBRATED,sponsorship-23
+donation-24,洛伦·伊普เซน,"Chino ejemplo",EUR 400.50,ALTRUIST,sponsorship-24
+donation-25,<marquee>Test</marquee>,"HTML en descripción",EUR 5.50,REWARDED,sponsorship-25
+donation-26,<script>alert('XSS');</script>,"Script en nombre",EUR 0.25,CELEBRATED,sponsorship-26
+donation-27,' OR 'B'='B',"Caracteres especiales",EUR 50.00,ALTRUIST,sponsorship-27
+donation-28,"Lorem ipsum dolor sit","Texto largo ejemplo",EUR 75.00,REWARDED,sponsorship-28
+donation-29,Lo-rem ipsum,"Texto mixto corto",EUR 1.00,CELEBRATED,sponsorship-29
+donation-30,"Lorem ipsum dolor sit amet","Descripción larga ejemplo",EUR 120.00,ALTRUIST,sponsorship-30
+donation-31,โลเร็ม อิปซัม,"Tailandés ejemplo",EUR 60.00,REWARDED,sponsorship-31
+donation-32,لوريم إيبسوم,"Árabe ejemplo",EUR 80.00,CELEBRATED,sponsorship-32
+donation-33,洛伦·伊普เซน,"Chino ejemplo",EUR 90.00,ALTRUIST,sponsorship-33
+donation-34,<marquee>Test</marquee>,"HTML en descripción",EUR 30.00,REWARDED,sponsorship-34
+donation-35,<script>alert('XSS');</script>,"Script en nombre",EUR 0.10,CELEBRATED,sponsorship-35
+donation-36,' OR 'C'='C',"Caracteres especiales",EUR 15.00,ALTRUIST,sponsorship-36
+donation-37,"Lorem ipsum dolor sit","Texto largo ejemplo",EUR 200.00,REWARDED,sponsorship-37
+donation-38,Lo-rem ipsum,"Texto mixto corto",EUR 50.50,CELEBRATED,sponsorship-38
+donation-39,"Lorem ipsum dolor sit amet","Descripción larga ejemplo",EUR 10.00,ALTRUIST,sponsorship-39
+donation-40,โลเร็ม อิปซัม,"Tailandés ejemplo",EUR 5.25,REWARDED,sponsorship-40
+donation-41,لوريم إيبسوم,"Árabe ejemplo",EUR 300.00,CELEBRATED,sponsorship-41
+donation-42,洛伦·伊普เซน,"Chino ejemplo",EUR 75.75,ALTRUIST,sponsorship-42
+donation-43,<marquee>Test</marquee>,"HTML en descripción",EUR 50.00,REWARDED,sponsorship-43
+donation-44,<script>alert('XSS');</script>,"Script en nombre",EUR 0.50,CELEBRATED,sponsorship-44
+donation-45,' OR 'D'='D',"Caracteres especiales",EUR 20.00,ALTRUIST,sponsorship-45
+donation-46,"Lorem ipsum dolor sit","Texto largo ejemplo",EUR 100.00,REWARDED,sponsorship-46
+donation-47,Lo-rem ipsum,"Texto mixto corto",EUR 200.00,CELEBRATED,sponsorship-47
+donation-48,"Lorem ipsum dolor sit amet","Descripción larga ejemplo",EUR 500.00,ALTRUIST,sponsorship-48
+donation-49,โลเร็ม อิปซัม,"Tailandés ejemplo",EUR 100.00,REWARDED,sponsorship-49

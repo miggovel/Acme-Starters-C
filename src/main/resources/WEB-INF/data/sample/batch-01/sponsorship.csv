@@ -1,0 +1,51 @@
+key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:sponsor
+sponsorship-00,SP-00,"Lorem ipsum dolor sit amet, consectetur adipiscing","Descripción de ejemplo 1","2025/10/01 10:00","2025/12/01 10:00","http://info.com",TRUE,sponsor-01
+sponsorship-01,SP-01,"L","Descripción mínima","2025/11/01 09:00","2026/01/01 09:00","http://example.com",TRUE,sponsor-02
+sponsorship-02,SP-02,"Lo","Otra descripción corta","2025/12/01 08:00","2026/02/01 08:00","","TRUE,sponsor-01
+sponsorship-03,SP-03,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod te","Descripción larga de ejemplo","2026/01/01 12:00","2026/03/01 12:00","https://a.org",TRUE,sponsor-02
+sponsorship-04,SP-04,"โลเร็ม อิปซัม","Descripción en tailandés","2026/02/01 15:00","2026/04/01 15:00","http://example.org?a=1&b=2",TRUE,sponsor-01
+sponsorship-05,SP-05,"لوريم إيبسوم","Descripción en árabe","2026/03/01 08:30","2026/05/01 08:30","https://www.lorem-ipsum.org",TRUE,sponsor-02
+sponsorship-06,SP-06,"洛伦·伊普森","Descripción en chino","2026/04/01 16:45","2026/06/01 16:45","http://www.lorem-ipsum.org/dolor/sit.html",TRUE,sponsor-01
+sponsorship-07,SP-07,"<marquee>Hacked</marquee>","Descripción con HTML","2026/05/01 10:10","2026/07/01 10:10","http://example.com/path",TRUE,sponsor-02
+sponsorship-08,SP-08,"<script>alert('Hacked!');</script>","Descripción con script","2026/06/01 09:00","2026/08/01 09:00","http://example.org/",FALSE,sponsor-01
+sponsorship-09,SP-09,"' or 'A' = 'A","Descripción con caracteres especiales","2026/07/01 14:30","2026/09/01 14:30","https://example.org/a/b?a&b",FALSE,sponsor-02
+sponsorship-10,SP-10,"Lorem ipsum dolor sit","Texto corto","2026/08/01 12:00","2026/10/01 12:00","http://lorem.com/ipsum",TRUE,sponsor-01
+sponsorship-11,SP-11,"Lo-rem ipsum","Variación corta","2026/09/01 08:00","2026/11/01 08:00","http://example.org",TRUE,sponsor-02
+sponsorship-12,SP-12,"Lorem ipsum dolor sit amet","Texto largo para ejemplo","2026/10/01 16:00","2026/12/01 16:00","https://a.org/path",TRUE,sponsor-01
+sponsorship-13,SP-13,"โลเร็ม","Texto tailandés corto","2026/11/01 09:30","2027/01/01 09:30","",TRUE,sponsor-02
+sponsorship-14,SP-14,"لوريم","Texto árabe corto","2026/12/01 10:15","2027/02/01 10:15","https://www.example.com",TRUE,sponsor-01
+sponsorship-15,SP-15,"洛伦","Texto chino corto","2027/01/01 14:45","2027/03/01 14:45","http://example.org/a",TRUE,sponsor-02
+sponsorship-16,SP-16,"<b>Bold Test</b>","HTML en nombre","2027/02/01 12:00","2027/04/01 12:00","http://example.com/path",TRUE,sponsor-01
+sponsorship-17,SP-17,"<i>Italic Test</i>","HTML en nombre","2027/03/01 08:00","2027/05/01 08:00","http://example.org/test",FALSE,sponsor-02
+sponsorship-18,SP-18,"' OR '1'='1","Prueba de caracteres especiales","2027/04/01 16:00","2027/06/01 16:00","https://example.com/a/b",FALSE,sponsor-01
+sponsorship-19,SP-19,"Lorem ipsum dolor sit","Descripción larga ejemplo","2027/05/01 09:00","2027/07/01 09:00","http://lorem.com/ipsum",TRUE,sponsor-02
+sponsorship-20,SP-20,"Lo-rem ipsum dolor","Texto mixto","2027/06/01 10:30","2027/08/01 10:30","http://example.org",TRUE,sponsor-01
+sponsorship-21,SP-21,"Lorem ipsum dolor sit amet","Descripción para test","2027/07/01 12:45","2027/09/01 12:45","https://a.org/path",TRUE,sponsor-02
+sponsorship-22,SP-22,"โลเร็ม อิปซัม","Tailandés ejemplo","2027/08/01 08:15","2027/10/01 08:15","",TRUE,sponsor-01
+sponsorship-23,SP-23,"لوريم إيبسوم","Árabe ejemplo","2027/09/01 14:00","2027/11/01 14:00","https://www.example.com",TRUE,sponsor-02
+sponsorship-24,SP-24,"洛伦·伊普เซน","Chino ejemplo","2027/10/01 09:30","2027/12/01 09:30","http://example.org/a",TRUE,sponsor-01
+sponsorship-25,SP-25,"<marquee>Test</marquee>","HTML en descripción","2027/11/01 16:00","2028/01/01 16:00","http://example.com/path",TRUE,sponsor-02
+sponsorship-26,SP-26,"<script>alert('XSS');</script>","Script en nombre","2027/12/01 12:00","2028/02/01 12:00","http://example.org/test",FALSE,sponsor-01
+sponsorship-27,SP-27,"' OR 'B'='B","Caracteres especiales","2028/01/01 08:00","2028/03/01 08:00","https://example.com/a/b",FALSE,sponsor-02
+sponsorship-28,SP-28,"Lorem ipsum dolor sit","Texto largo ejemplo","2028/02/01 14:00","2028/04/01 14:00","http://lorem.com/ipsum",TRUE,sponsor-01
+sponsorship-29,SP-29,"Lo-rem ipsum","Texto mixto corto","2028/03/01 09:30","2028/05/01 09:30","http://example.org",TRUE,sponsor-02
+sponsorship-30,SP-30,"Lorem ipsum dolor sit amet","Descripción larga ejemplo","2028/04/01 16:00","2028/06/01 16:00","https://a.org/path",TRUE,sponsor-01
+sponsorship-31,SP-31,"โลเร็ม อิปซัม","Tailandés ejemplo","2028/05/01 08:15","2028/07/01 08:15","",TRUE,sponsor-02
+sponsorship-32,SP-32,"لوريم إيبسوم","Árabe ejemplo","2028/06/01 14:00","2028/08/01 14:00","https://www.example.com",TRUE,sponsor-01
+sponsorship-33,SP-33,"洛伦·伊普เซน","Chino ejemplo","2028/07/01 09:30","2028/09/01 09:30","http://example.org/a",TRUE,sponsor-02
+sponsorship-34,SP-34,"<marquee>Test</marquee>","HTML en descripción","2028/08/01 16:00","2028/10/01 16:00","http://example.com/path",TRUE,sponsor-01
+sponsorship-35,SP-35,"<script>alert('XSS');</script>","Script en nombre","2028/09/01 12:00","2028/11/01 12:00","http://example.org/test",FALSE,sponsor-02
+sponsorship-36,SP-36,"' OR 'C'='C","Caracteres especiales","2028/10/01 08:00","2028/12/01 08:00","https://example.com/a/b",FALSE,sponsor-01
+sponsorship-37,SP-37,"Lorem ipsum dolor sit","Texto largo ejemplo","2028/11/01 14:00","2029/01/01 14:00","http://lorem.com/ipsum",TRUE,sponsor-02
+sponsorship-38,SP-38,"Lo-rem ipsum","Texto mixto corto","2028/12/01 09:30","2029/02/01 09:30","http://example.org",TRUE,sponsor-01
+sponsorship-39,SP-39,"Lorem ipsum dolor sit amet","Descripción larga ejemplo","2029/01/01 16:00","2029/03/01 16:00","https://a.org/path",TRUE,sponsor-02
+sponsorship-40,SP-40,"โลเร็ม อิปซัม","Tailandés ejemplo","2029/02/01 08:15","2029/04/01 08:15","",TRUE,sponsor-01
+sponsorship-41,SP-41,"لوريم إيبسوم","Árabe ejemplo","2029/03/01 14:00","2029/05/01 14:00","https://www.example.com",TRUE,sponsor-02
+sponsorship-42,SP-42,"洛伦·伊普เซน","Chino ejemplo","2029/04/01 09:30","2029/06/01 09:30","http://example.org/a",TRUE,sponsor-01
+sponsorship-43,SP-43,"<marquee>Test</marquee>","HTML en descripción","2029/05/01 16:00","2029/07/01 16:00","http://example.com/path",TRUE,sponsor-02
+sponsorship-44,SP-44,"<script>alert('XSS');</script>","Script en nombre","2029/06/01 12:00","2029/08/01 12:00","http://example.org/test",FALSE,sponsor-01
+sponsorship-45,SP-45,"' OR 'D'='D","Caracteres especiales","2029/07/01 08:00","2029/09/01 08:00","https://example.com/a/b",FALSE,sponsor-02
+sponsorship-46,SP-46,"Lorem ipsum dolor sit","Texto largo ejemplo","2029/08/01 14:00","2029/10/01 14:00","http://lorem.com/ipsum",TRUE,sponsor-01
+sponsorship-47,SP-47,"Lo-rem ipsum","Texto mixto corto","2029/09/01 09:30","2029/11/01 09:30","http://example.org",TRUE,sponsor-02
+sponsorship-48,SP-48,"Lorem ipsum dolor sit amet","Descripción larga ejemplo","2029/10/01 16:00","2030/01/01 16:00","https://a.org/path",TRUE,sponsor-01
+sponsorship-49,SP-49,"โลเร็ม อิปซัม","Tailandés ejemplo","2029/11/01 08:15","2030/02/01 08:15","",TRUE,sponsor-02
