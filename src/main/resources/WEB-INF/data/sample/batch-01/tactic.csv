@@ -1,0 +1,6 @@
+﻿key,name,notes,expected-percentage,kind,key:strategy
+tactic-01,"Public Grants","Apply for co-financing grants with predefined eligibility screening.",35.00,SUBTLE,strategy-01
+tactic-02,"Private Syndicate","Coordinate private investors through staged commitments.",25.00,AGGRESSIVE,strategy-01
+tactic-03,"Pilot Partnerships","Negotiate pilot agreements with incubators and local clusters.",50.00,TENDER,strategy-02
+tactic-04,"Clinical Outreach","Create collaboration channels with healthcare operators and labs.",40.00,SUBTLE,strategy-03
+tactic-05,"Digital Campaign","Run segmented acquisition campaigns for accredited investors.",30.00,AGGRESSIVE,strategy-03

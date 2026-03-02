@@ -1,0 +1,4 @@
+﻿key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:fundraiser
+strategy-01,FR01-ALPHA1,"Green Infrastructure","Funding plan for certified green infrastructure projects in Europe.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/alpha,FALSE,fundraiser-01
+strategy-02,FR02-BETA22,"Local Startup Boost","Draft strategy to back local startups with milestone-based disbursement.",2027/03/01 10:00,2028/01/01 10:00,http://example.org/strategies/beta,TRUE,fundraiser-01
+strategy-03,FR03-OMEGA3,"Health Innovation","Published strategy to support digital health and hospital process modernization.",2027/02/10 08:30,2027/11/30 18:00,http://example.org/strategies/omega,FALSE,fundraiser-02
