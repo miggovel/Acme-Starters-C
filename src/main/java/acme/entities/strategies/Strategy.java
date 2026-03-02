@@ -12,6 +12,7 @@
 
 package acme.entities.strategies;
 
+import java.time.Duration;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -32,6 +33,7 @@ import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidMoment.Constraint;
 import acme.client.components.validation.ValidUrl;
+import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidStrategy;
 import acme.constraints.ValidText;
@@ -104,11 +106,11 @@ public class Strategy extends AbstractEntity {
 		if (this.startMoment == null || this.endMoment == null)
 			result = 0.0;
 		else {
-			double millisecondsPerMonth;
+			Duration duration;
 			double rawValue;
 
-			millisecondsPerMonth = 1000.0 * 60.0 * 60.0 * 24.0 * 30.0;
-			rawValue = (this.endMoment.getTime() - this.startMoment.getTime()) / millisecondsPerMonth;
+			duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
+			rawValue = duration.toDays() / 30.0;
 			result = Math.round(rawValue * 10.0) / 10.0;
 		}
 

@@ -15,7 +15,6 @@ package acme.features.fundraiser.strategy;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.client.helpers.MomentHelper;
 import acme.client.services.AbstractService;
 import acme.entities.strategies.Strategy;
 import acme.realms.Fundraiser;
@@ -56,29 +55,13 @@ public class FundraiserStrategyPublishService extends AbstractService<Fundraiser
 
 	@Override
 	public void validate() {
+		boolean originalDraftMode;
+
+		// Trigger publication constraints in StrategyValidator.
+		originalDraftMode = this.strategy.isDraftMode();
+		this.strategy.setDraftMode(false);
 		super.validateObject(this.strategy);
-
-		{
-			boolean hasTactics;
-
-			hasTactics = this.repository.countTacticsByStrategyId(this.strategy.getId()) > 0;
-			super.state(hasTactics, "*", "acme.validation.strategy.publish.minimum-tactics.message");
-		}
-		{
-			double expectedPercentage;
-			boolean validExpectedPercentage;
-
-			expectedPercentage = this.strategy.getExpectedPercentage();
-			validExpectedPercentage = expectedPercentage >= 0.0 && expectedPercentage <= 100.0;
-			super.state(validExpectedPercentage, "*", "acme.validation.strategy.publish.expected-percentage.message");
-		}
-		{
-			boolean validInterval;
-
-			validInterval = this.strategy.getStartMoment() != null && this.strategy.getEndMoment() != null && MomentHelper.isAfter(this.strategy.getEndMoment(), this.strategy.getStartMoment())
-				&& MomentHelper.isFuture(this.strategy.getStartMoment()) && MomentHelper.isFuture(this.strategy.getEndMoment());
-			super.state(validInterval, "*", "acme.validation.strategy.publish.interval.message");
-		}
+		this.strategy.setDraftMode(originalDraftMode);
 	}
 
 	@Override

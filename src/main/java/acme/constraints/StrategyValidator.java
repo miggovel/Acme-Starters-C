@@ -64,6 +64,28 @@ public class StrategyValidator extends AbstractValidator<ValidStrategy, Strategy
 					super.state(context, correctInterval, "endMoment", "acme.validation.strategy.interval.message");
 				}
 			}
+			{
+				// Publication constraints: these must hold whenever draftMode is false.
+				if (!strategy.isDraftMode()) {
+					boolean hasTactics;
+					boolean validIntervalInFuture;
+					Double expectedPercentageWrapper;
+					double expectedPercentage;
+					boolean validExpectedPercentage;
+
+					hasTactics = this.repository.countTacticsByStrategyId(strategy.getId()) > 0;
+					super.state(context, hasTactics, "*", "acme.validation.strategy.publish.minimum-tactics.message");
+
+					validIntervalInFuture = strategy.getStartMoment() != null && strategy.getEndMoment() != null && MomentHelper.isAfter(strategy.getEndMoment(), strategy.getStartMoment())
+						&& MomentHelper.isFuture(strategy.getStartMoment()) && MomentHelper.isFuture(strategy.getEndMoment());
+					super.state(context, validIntervalInFuture, "*", "acme.validation.strategy.publish.interval.message");
+
+					expectedPercentageWrapper = this.repository.computeExpectedPercentageByStrategyId(strategy.getId());
+					expectedPercentage = expectedPercentageWrapper == null ? 0.0 : expectedPercentageWrapper.doubleValue();
+					validExpectedPercentage = expectedPercentage >= 0.0 && expectedPercentage <= 100.0;
+					super.state(context, validExpectedPercentage, "*", "acme.validation.strategy.publish.expected-percentage.message");
+				}
+			}
 			result = !super.hasErrors(context);
 		}
 
