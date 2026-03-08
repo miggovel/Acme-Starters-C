@@ -1,16 +1,16 @@
 
-package acme.entities;
+package acme.entities.campaigns;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
-import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.validation.Valid;
 
 import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.ValidNumber;
-import acme.client.components.validation.ValidString;
+import acme.constraints.ValidHeader;
+import acme.constraints.ValidText;
 import acme.datatypes.MilestoneKind;
 import lombok.Getter;
 import lombok.Setter;
@@ -27,12 +27,12 @@ public class Milestone extends AbstractEntity {
 	// Attributes ------------------------------------
 
 	@Mandatory
-	@ValidString
+	@ValidHeader
 	@Column
 	private String				title;
 
 	@Mandatory
-	@ValidString
+	@ValidText
 	@Column
 	private String				achievements;
 
@@ -48,8 +48,9 @@ public class Milestone extends AbstractEntity {
 
 	// Relationships ----------------------------------
 
+	@Mandatory
+	@Valid
 	@ManyToOne(optional = false)
-	@JoinColumn(name = "campaign_id")
 	private Campaign			campaign;
 
 }

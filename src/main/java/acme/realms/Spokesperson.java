@@ -6,7 +6,7 @@ import javax.validation.Valid;
 
 import acme.client.components.basis.AbstractRealm;
 import acme.client.components.validation.Mandatory;
-import acme.client.components.validation.ValidString;
+import acme.constraints.ValidText;
 
 public abstract class Spokesperson extends AbstractRealm {
 
@@ -17,12 +17,12 @@ public abstract class Spokesperson extends AbstractRealm {
 	// Attributes ---------------------------------------
 
 	@Mandatory
-	@ValidString
+	@ValidText
 	@Column
 	private String				cv;
 
 	@Mandatory
-	@ValidString
+	@ValidText
 	@Column
 	private String				achievements;
 

@@ -1,12 +1,12 @@
 
-package acme.entities;
+package acme.entities.campaigns;
 
 import java.util.Collection;
 import java.util.Date;
 
-import javax.persistence.CascadeType;
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
@@ -18,8 +18,12 @@ import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidMoment.Constraint;
-import acme.client.components.validation.ValidString;
+import acme.client.components.validation.ValidNumber;
 import acme.client.components.validation.ValidUrl;
+import acme.constraints.ValidHeader;
+import acme.constraints.ValidText;
+import acme.constraints.ValidTicker;
+import acme.realms.Spokesperson;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -35,17 +39,17 @@ public class Campaign extends AbstractEntity {
 	// Attributes --------------------------------------
 
 	@Mandatory
-	@Valid
+	@ValidTicker
 	@Column(unique = true)
 	private String				ticker;
 
 	@Mandatory
-	@ValidString
+	@ValidHeader
 	@Column(unique = true)
 	private String				name;
 
 	@Mandatory
-	@ValidString
+	@ValidText
 	@Column
 	private String				description;
 
@@ -64,24 +68,25 @@ public class Campaign extends AbstractEntity {
 	@Column
 	private String				moreInfo;
 
+	// Constant -----------------------------------------
+
+	private static final double	MILLIS_PER_MONTH	= 1000.0 * 60 * 60 * 24 * 30.4375;
+
 	// Derived Attributes -------------------------------
 
 
+	@Mandatory
+	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		if (this.startMoment == null || this.endMoment == null)
-			return null;
-
 		long millis = this.endMoment.getTime() - this.startMoment.getTime();
-		if (millis <= 0)
-			return 0.0;
-
-		double days = millis / (1000.0 * 60 * 60 * 24);
-		double months = days / 30.4375;
+		double months = millis <= 0 ? 0.0 : millis / Campaign.MILLIS_PER_MONTH;
 
 		return Math.round(months * 10.0) / 10.0;
 	}
 
+	@Mandatory
+	@ValidNumber(min = 0.0)
 	@Transient
 	public Double getEffort() {
 
@@ -105,7 +110,14 @@ public class Campaign extends AbstractEntity {
 
 	// Relationships -----------------------------------
 
-	@OneToMany(mappedBy = "campaign", cascade = CascadeType.ALL, orphanRemoval = true)
+	@Mandatory
+	@Valid
+	@OneToMany
 	private Collection<Milestone>	milestones;
+
+	@Mandatory
+	@Valid
+	@ManyToOne
+	private Spokesperson			spokesperson;
 
 }
