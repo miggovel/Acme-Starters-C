@@ -26,4 +26,7 @@ public interface CampaignRepository extends AbstractRepository {
 
 	@Query("select count(m) from Milestone m where m.campaign.id = :id")
 	Integer countMilestonesByCampaignId(@Param("id") int id);
+
+	@Query("select sum(m.effort) from Milestone m where m.campaign.id = :id")
+	Double computeEffortByCampaignId(@Param("id") int id);
 }

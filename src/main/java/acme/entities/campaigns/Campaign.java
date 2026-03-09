@@ -1,17 +1,17 @@
 
 package acme.entities.campaigns;
 
-import java.util.Collection;
 import java.util.Date;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
-import javax.persistence.OneToMany;
 import javax.persistence.Temporal;
 import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.Valid;
+
+import org.springframework.beans.factory.annotation.Autowired;
 
 import acme.client.components.basis.AbstractEntity;
 import acme.client.components.validation.Mandatory;
@@ -76,11 +76,15 @@ public class Campaign extends AbstractEntity {
 
 	// Derived Attributes -------------------------------
 
+	@Transient
+	@Autowired
+	private CampaignRepository	repository;
+
 
 	@Mandatory
 	@Valid
 	@Transient
-	public Double monthsActive() {
+	public Double getMonthsActive() {
 		long millis = this.endMoment.getTime() - this.startMoment.getTime();
 		double months = millis <= 0 ? 0.0 : millis / Campaign.MILLIS_PER_MONTH;
 
@@ -90,16 +94,18 @@ public class Campaign extends AbstractEntity {
 	@Mandatory
 	@ValidNumber(min = 0.0)
 	@Transient
-	public Double effort() {
+	public double getEffort() {
+		double result;
+		Double wrapper;
 
-		double total = 0.0;
+		if (this.repository == null || this.getId() == 0)
+			result = 0.0;
+		else {
+			wrapper = this.repository.computeEffortByCampaignId(this.getId());
+			result = wrapper == null ? 0.0 : wrapper.doubleValue();
+		}
 
-		if (this.milestones != null)
-			for (Milestone m : this.milestones)
-				if (m.getEffort() != null)
-					total += m.getEffort();
-
-		return total;
+		return result;
 	}
 
 	// Responsabilities --------------------------------
@@ -108,18 +114,13 @@ public class Campaign extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@Column
-	private Boolean					draftMode;
+	private Boolean			draftMode;
 
 	// Relationships -----------------------------------
 
 	@Mandatory
 	@Valid
-	@OneToMany
-	private Collection<Milestone>	milestones;
-
-	@Mandatory
-	@Valid
 	@ManyToOne
-	private Spokesperson			spokesperson;
+	private Spokesperson	spokesperson;
 
 }
