@@ -20,6 +20,7 @@ import acme.client.components.validation.ValidMoment;
 import acme.client.components.validation.ValidMoment.Constraint;
 import acme.client.components.validation.ValidNumber;
 import acme.client.components.validation.ValidUrl;
+import acme.constraints.ValidCampaign;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
@@ -30,6 +31,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
+@ValidCampaign
 public class Campaign extends AbstractEntity {
 
 	// Serialisation version ---------------------------
@@ -78,7 +80,7 @@ public class Campaign extends AbstractEntity {
 	@Mandatory
 	@Valid
 	@Transient
-	public Double getMonthsActive() {
+	public Double monthsActive() {
 		long millis = this.endMoment.getTime() - this.startMoment.getTime();
 		double months = millis <= 0 ? 0.0 : millis / Campaign.MILLIS_PER_MONTH;
 
@@ -88,7 +90,7 @@ public class Campaign extends AbstractEntity {
 	@Mandatory
 	@ValidNumber(min = 0.0)
 	@Transient
-	public Double getEffort() {
+	public Double effort() {
 
 		double total = 0.0;
 

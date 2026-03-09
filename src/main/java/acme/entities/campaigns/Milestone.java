@@ -11,7 +11,6 @@ import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.ValidNumber;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
-import acme.datatypes.MilestoneKind;
 import lombok.Getter;
 import lombok.Setter;
 
