@@ -44,7 +44,7 @@ public class FundraiserTacticCreateService extends AbstractService<Fundraiser, T
 		strategyId = super.getRequest().getData("strategyId", int.class);
 		strategy = this.repository.findStrategyById(strategyId);
 
-		this.tactic = new Tactic();
+		this.tactic = super.newObject(Tactic.class);
 		this.tactic.setName("");
 		this.tactic.setNotes("");
 		this.tactic.setExpectedPercentage(0.0);

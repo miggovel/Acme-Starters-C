@@ -12,7 +12,7 @@
 
 package acme.entities.strategies;
 
-import java.time.Duration;
+import java.time.temporal.ChronoUnit;
 import java.util.Date;
 
 import javax.persistence.Column;
@@ -106,11 +106,10 @@ public class Strategy extends AbstractEntity {
 		if (this.startMoment == null || this.endMoment == null)
 			result = 0.0;
 		else {
-			Duration duration;
 			double rawValue;
 
-			duration = MomentHelper.computeDuration(this.startMoment, this.endMoment);
-			rawValue = duration.toDays() / 30.0;
+			// En 26.3.0 el framework ya trae computeDifference(...), que aqui encaja mejor que el calculo manual.
+			rawValue = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
 			result = Math.round(rawValue * 10.0) / 10.0;
 		}
 

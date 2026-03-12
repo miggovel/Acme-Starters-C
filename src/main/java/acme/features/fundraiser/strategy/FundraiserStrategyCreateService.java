@@ -38,7 +38,8 @@ public class FundraiserStrategyCreateService extends AbstractService<Fundraiser,
 
 		fundraiser = (Fundraiser) super.getRequest().getPrincipal().getActiveRealm();
 
-		this.strategy = new Strategy();
+		// En 26.3.0 esto ya puede crearse con newObject(...) y queda inyectado desde el principio.
+		this.strategy = super.newObject(Strategy.class);
 		this.strategy.setDraftMode(true);
 		this.strategy.setFundraiser(fundraiser);
 	}
