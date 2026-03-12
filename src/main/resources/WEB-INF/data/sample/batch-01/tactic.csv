@@ -1,0 +1,104 @@
+﻿key,name,notes,expected-percentage,kind,key:strategy
+tactic-01,"Public Grants","Apply for co-financing grants with predefined eligibility screening.",35.00,SUBTLE,strategy-01
+tactic-02,"Private Syndicate","Coordinate private investors through staged commitments.",25.00,AGGRESSIVE,strategy-01
+tactic-03,"Pilot Partnerships","Negotiate pilot agreements with incubators and local clusters.",50.00,TENDER,strategy-02
+tactic-06,"A","x",0.00,SUBTLE,strategy-01
+tactic-07,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",0.01,AGGRESSIVE,strategy-01
+tactic-08,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",0.10,TENDER,strategy-01
+tactic-09,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.25,SUBTLE,strategy-01
+tactic-10,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",0.50,AGGRESSIVE,strategy-01
+tactic-11,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",0.00,TENDER,strategy-01
+tactic-12,"资本计划","用于验证多字节字符处理的中文测试说明。",0.01,SUBTLE,strategy-01
+tactic-13,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",0.10,AGGRESSIVE,strategy-01
+tactic-14,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",0.25,TENDER,strategy-01
+tactic-15,"<img src=x onerror=alert(1)>","Payload test for XSS vector: <img src=x onerror=alert(1)>",0.50,SUBTLE,strategy-01
+tactic-16,"<svg onload=alert(1)>","HTML/script injection probe: </textarea><script>alert(1)</script>",0.00,AGGRESSIVE,strategy-01
+tactic-17,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",0.01,TENDER,strategy-01
+tactic-18,"A","x",0.10,SUBTLE,strategy-01
+tactic-19,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",0.25,AGGRESSIVE,strategy-01
+tactic-20,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",0.50,TENDER,strategy-01
+tactic-21,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.00,SUBTLE,strategy-01
+tactic-22,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",0.01,AGGRESSIVE,strategy-01
+tactic-23,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",0.10,TENDER,strategy-01
+tactic-24,"资本计划","用于验证多字节字符处理的中文测试说明。",0.25,SUBTLE,strategy-01
+tactic-25,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",0.50,AGGRESSIVE,strategy-01
+tactic-46,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",1.00,AGGRESSIVE,strategy-02
+tactic-47,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",49.99,TENDER,strategy-02
+tactic-48,"资本计划","用于验证多字节字符处理的中文测试说明。",50.00,SUBTLE,strategy-02
+tactic-49,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",99.99,AGGRESSIVE,strategy-02
+tactic-50,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",100.00,TENDER,strategy-02
+tactic-51,"javascript:alert(1)","Encoded payload probes: %3Cscript%3Ealert(1)%3C/script%3E with {{7*7}} and ${7*7}.",0.00,SUBTLE,strategy-02
+tactic-52,"SQLi test ' OR '1'='1","Template/path payload probes: ../../etc/passwd and <iframe src=javascript:alert(1)>",0.01,AGGRESSIVE,strategy-02
+tactic-53,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",0.10,TENDER,strategy-02
+tactic-54,"A","x",0.99,SUBTLE,strategy-02
+tactic-55,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",1.00,AGGRESSIVE,strategy-02
+tactic-56,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",49.99,TENDER,strategy-02
+tactic-57,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",50.00,SUBTLE,strategy-02
+tactic-58,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",99.99,AGGRESSIVE,strategy-02
+tactic-59,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",100.00,TENDER,strategy-02
+tactic-60,"资本计划","用于验证多字节字符处理的中文测试说明。",0.00,SUBTLE,strategy-02
+tactic-61,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",0.01,AGGRESSIVE,strategy-02
+tactic-62,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",0.10,TENDER,strategy-02
+tactic-63,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",0.99,SUBTLE,strategy-02
+tactic-64,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",1.00,AGGRESSIVE,strategy-02
+tactic-65,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",49.99,TENDER,strategy-02
+tactic-66,"A","x",50.00,SUBTLE,strategy-02
+tactic-67,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",99.99,AGGRESSIVE,strategy-02
+tactic-68,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",100.00,TENDER,strategy-02
+tactic-69,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.00,SUBTLE,strategy-02
+tactic-70,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",0.01,AGGRESSIVE,strategy-02
+tactic-71,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",0.10,TENDER,strategy-02
+tactic-72,"资本计划","用于验证多字节字符处理的中文测试说明。",0.99,SUBTLE,strategy-02
+tactic-73,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",1.00,AGGRESSIVE,strategy-02
+tactic-74,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",49.99,TENDER,strategy-02
+tactic-75,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",50.00,SUBTLE,strategy-02
+tactic-76,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",99.99,AGGRESSIVE,strategy-02
+tactic-77,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",100.00,TENDER,strategy-02
+tactic-78,"A","x",0.00,SUBTLE,strategy-02
+tactic-79,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",0.01,AGGRESSIVE,strategy-02
+tactic-80,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",0.10,TENDER,strategy-02
+tactic-81,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.99,SUBTLE,strategy-02
+tactic-82,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",1.00,AGGRESSIVE,strategy-02
+tactic-83,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",49.99,TENDER,strategy-02
+tactic-84,"资本计划","用于验证多字节字符处理的中文测试说明。",50.00,SUBTLE,strategy-02
+tactic-85,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",99.99,AGGRESSIVE,strategy-02
+tactic-86,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",100.00,TENDER,strategy-02
+tactic-87,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",0.00,SUBTLE,strategy-02
+tactic-88,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",0.01,AGGRESSIVE,strategy-02
+tactic-89,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",0.10,TENDER,strategy-02
+tactic-90,"A","x",0.99,SUBTLE,strategy-02
+tactic-91,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",1.00,AGGRESSIVE,strategy-02
+tactic-92,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",49.99,TENDER,strategy-02
+tactic-93,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",50.00,SUBTLE,strategy-02
+tactic-94,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",99.99,AGGRESSIVE,strategy-02
+tactic-95,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",100.00,TENDER,strategy-02
+tactic-96,"资本计划","用于验证多字节字符处理的中文测试说明。",0.00,SUBTLE,strategy-02
+tactic-97,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",0.01,AGGRESSIVE,strategy-02
+tactic-98,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",0.10,TENDER,strategy-02
+tactic-99,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",0.99,SUBTLE,strategy-02
+tactic-100,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",1.00,AGGRESSIVE,strategy-02
+tactic-101,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",49.99,TENDER,strategy-02
+tactic-102,"A","x",50.00,SUBTLE,strategy-02
+tactic-103,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",99.99,AGGRESSIVE,strategy-02
+tactic-104,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",100.00,TENDER,strategy-02
+tactic-105,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.00,SUBTLE,strategy-02
+tactic-106,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",0.01,AGGRESSIVE,strategy-02
+tactic-107,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",0.10,TENDER,strategy-02
+tactic-108,"资本计划","用于验证多字节字符处理的中文测试说明。",0.99,SUBTLE,strategy-02
+tactic-109,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",1.00,AGGRESSIVE,strategy-02
+tactic-110,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",49.99,TENDER,strategy-02
+tactic-111,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",50.00,SUBTLE,strategy-02
+tactic-112,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",99.99,AGGRESSIVE,strategy-02
+tactic-113,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",100.00,TENDER,strategy-02
+tactic-114,"A","x",0.00,SUBTLE,strategy-02
+tactic-115,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",0.01,AGGRESSIVE,strategy-02
+tactic-116,"تمويل","ملاحظة تجريبية لاختبار الحروف العربية ضمن البيانات.",0.10,TENDER,strategy-02
+tactic-117,"निवेश","हिंदी पाठ के साथ परीक्षण नोट ताकि यूनिकोड सही चले।",0.99,SUBTLE,strategy-02
+tactic-118,"Стратегия","Тестовая заметка на кириллице для проверки локализации.",1.00,AGGRESSIVE,strategy-02
+tactic-119,"Επένδυση","Σημείωση δοκιμής στα ελληνικά για έλεγχο διεθνοποίησης.",49.99,TENDER,strategy-02
+tactic-120,"资本计划","用于验证多字节字符处理的中文测试说明。",50.00,SUBTLE,strategy-02
+tactic-121,"戦略資金","日本語のテストノート。句読点と全角文字を含みます。",99.99,AGGRESSIVE,strategy-02
+tactic-122,"전략투자","한국어 테스트 메모입니다. 다국어 처리 확인용.",100.00,TENDER,strategy-02
+tactic-123,"Name with comma, semicolon; and slash / for parser check","Text with comma, quote ""double"", symbols !@#$%^&*() and slash / path.",0.00,SUBTLE,strategy-02
+tactic-124,"Quoted ""header"" sample","Edge case note with tabs\tand escaped chars kept as plain text.",0.01,AGGRESSIVE,strategy-02
+tactic-125,"MiXeD Case 123","Long mixed note with accents áéíóú ñ ç and mathematical values 0.01 / 99.99.",0.10,TENDER,strategy-02

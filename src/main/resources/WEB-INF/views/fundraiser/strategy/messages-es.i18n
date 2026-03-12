@@ -1,0 +1,35 @@
+﻿# messages-es.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+fundraiser.strategy.list.title = Lista de mis estrategias
+fundraiser.strategy.form.title = Detalles de estrategia
+
+fundraiser.strategy.list.label.ticker = Referencia
+fundraiser.strategy.list.label.name = Nombre
+fundraiser.strategy.list.label.expected-percentage = Porcentaje esperado
+fundraiser.strategy.list.label.draft-mode = Borrador
+
+fundraiser.strategy.form.label.ticker = Referencia:
+fundraiser.strategy.form.label.name = Nombre:
+fundraiser.strategy.form.label.description = Descripcion:
+fundraiser.strategy.form.label.start-moment = Momento inicial:
+fundraiser.strategy.form.label.end-moment = Momento final:
+fundraiser.strategy.form.label.more-info = Mas informacion: (Opcional)
+fundraiser.strategy.form.label.months-active = Meses activos:
+fundraiser.strategy.form.label.expected-percentage = Porcentaje esperado:
+
+fundraiser.strategy.form.button.tactics = Tacticas
+fundraiser.strategy.form.button.fundraiser-profile = Perfil del recaudador
+fundraiser.strategy.form.button.create = Crear
+fundraiser.strategy.form.button.update = Actualizar
+fundraiser.strategy.form.button.delete = Borrar
+fundraiser.strategy.form.button.publish = Publicar
+
+fundraiser.strategy.list.button.create = Crear

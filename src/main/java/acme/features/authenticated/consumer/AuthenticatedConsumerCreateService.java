@@ -42,7 +42,7 @@ public class AuthenticatedConsumerCreateService extends AbstractService<Authenti
 		userAccountId = super.getRequest().getPrincipal().getAccountId();
 		userAccount = this.repository.findUserAccountById(userAccountId);
 
-		this.consumer = new Consumer();
+		this.consumer = super.newObject(Consumer.class);
 		this.consumer.setUserAccount(userAccount);
 	}
 
