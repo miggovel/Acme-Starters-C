@@ -47,7 +47,7 @@ public class Campaign extends AbstractEntity {
 
 	@Mandatory
 	@ValidHeader
-	@Column(unique = true)
+	@Column
 	private String				name;
 
 	@Mandatory

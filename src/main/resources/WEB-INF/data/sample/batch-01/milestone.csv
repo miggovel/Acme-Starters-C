@@ -29,15 +29,15 @@ milestone-22,"Initial Promotion",لوريملوريم,10.0,TEASER,campaign-01
 #effort - standard variations
 milestone-23,"Initial Promotion","First promotional phase to introduce the campaign",0.00,TEASER,campaign-01
 milestone-24,"Initial Promotion","First promotional phase to introduce the campaign",0.01,TEASER,campaign-01
-milestone-25,"Initial Promotion","First promotional phase to introduce the campaign",9999999.99,TEASER,campaign-01
-milestone-26,"Initial Promotion","First promotional phase to introduce the campaign",1000000.00,TEASER,campaign-01
+milestone-25,"Initial Promotion","First promotional phase to introduce the campaign",999999.99,TEASER,campaign-02
+milestone-26,"Initial Promotion","First promotional phase to introduce the campaign",100000.00,TEASER,campaign-03
 #effort - no singular values
 #kind - standard variations
 milestone-27,"Initial Promotion","First promotional phase to introduce the campaign",10.0,ENGAGING,campaign-01
 milestone-28,"Initial Promotion","First promotional phase to introduce the campaign",10.0,CONVERSION,campaign-01
 #king - no singular values
 #campaign - standard variations
-milestone-00,"Initial Promotion","First promotional phase to introduce the campaign",10.0,TEASER,campaign-02
+milestone-29,"Initial Promotion","First promotional phase to introduce the campaign",10.0,TEASER,campaign-59
 
 
 

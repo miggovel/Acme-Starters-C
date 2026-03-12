@@ -14,7 +14,7 @@ import lombok.Setter;
 @Entity
 @Getter
 @Setter
-public abstract class Spokesperson extends AbstractRealm {
+public class Spokesperson extends AbstractRealm {
 
 	// Serialisation version ----------------------------
 
