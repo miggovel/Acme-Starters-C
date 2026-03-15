@@ -1,18 +1,15 @@
 
 package acme.features.spokesperson.campaign;
 
-import java.util.Collection;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import acme.client.services.AbstractService;
 import acme.entities.campaigns.Campaign;
-import acme.entities.campaigns.Milestone;
 import acme.realms.Spokesperson;
 
 @Service
-public class SpokespersonCampaignDeleteService extends AbstractService<Spokesperson, Campaign> {
+public class SpokespersonCampaignPublishService extends AbstractService<Spokesperson, Campaign> {
 
 	// Internal state ---------------------------------------------------------
 
@@ -47,16 +44,19 @@ public class SpokespersonCampaignDeleteService extends AbstractService<Spokesper
 
 	@Override
 	public void validate() {
-		;
+		boolean originalDraftMode;
+
+		// Trigger publication constraints in StrategyValidator.
+		originalDraftMode = this.campaign.getDraftMode();
+		this.campaign.setDraftMode(false);
+		super.validateObject(this.campaign);
+		this.campaign.setDraftMode(originalDraftMode);
 	}
 
 	@Override
 	public void execute() {
-		Collection<Milestone> milestones;
-
-		milestones = this.repository.findMilestonesByCampaignId(this.campaign.getId());
-		this.repository.deleteAll(milestones);
-		this.repository.delete(this.campaign);
+		this.campaign.setDraftMode(false);
+		this.repository.save(this.campaign);
 	}
 
 	@Override
