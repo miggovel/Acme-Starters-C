@@ -1,0 +1,16 @@
+# validation-es.i18n para Sponsorship
+#
+# Derechos de autor (C) 2012-2026 Rafael Corchuelo.
+#
+# Con el propósito tradicional de fomentar la educación y la investigación, 
+# la política del propietario de los derechos permite el uso no comercial 
+# y la redistribución de este software. Ha sido probado cuidadosamente, 
+# pero no se garantiza para ningún propósito en particular. 
+# El propietario de los derechos no ofrece garantías ni representaciones, 
+# ni acepta responsabilidades respecto a ellos.
+
+acme.validation.sponsorship.duplicated-ticker.message = El código (ticker) está duplicado
+acme.validation.sponsorship.interval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.sponsorship.publish.minimum-donations.message = Debe definir al menos una donación antes de publicar
+acme.validation.sponsorship.publish.interval.message = Los momentos de inicio y fin deben formar un intervalo futuro al momento de publicar
+acme.validation.sponsorship.total-money.currency.message = Solo se aceptan Euros para el dinero total

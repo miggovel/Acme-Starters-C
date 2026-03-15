@@ -47,11 +47,11 @@ public class SponsorshipValidator extends AbstractValidator<ValidSponsorship, Sp
 		super.state(context, months >= 0, "startMoment", "acme.validation.sponsorship.months-active");
 
 		//  Validación de dinero total (solo Euros)
-		if (sponsorship.getTotalMoney() != null) {
-			boolean isEuro = "EUR".equals(sponsorship.getTotalMoney().getCurrency());
+		if (sponsorship.totalMoney() != null) {
+			boolean isEuro = "EUR".equals(sponsorship.totalMoney().getCurrency());
 			super.state(context, isEuro, "*", "acme.validation.sponsorship.only-euros");
 
-			boolean hasAtLeastOneDonation = sponsorship.getTotalMoney().getAmount() > 0;
+			boolean hasAtLeastOneDonation = sponsorship.totalMoney().getAmount() > 0;
 			super.state(context, hasAtLeastOneDonation, "*", "acme.validation.sponsorship.at-least-one-donation");
 		}
 

@@ -12,6 +12,8 @@ import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import acme.client.components.basis.AbstractEntity;
 import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
@@ -34,7 +36,7 @@ import lombok.Setter;
 @ValidSponsorship
 public class Sponsorship extends AbstractEntity {
 
-	private static final long	serialVersionUID	= 1L;
+	private static final long		serialVersionUID	= 1L;
 
 	// -----------------
 	// ATTRIBUTES
@@ -43,40 +45,44 @@ public class Sponsorship extends AbstractEntity {
 	@Mandatory
 	@ValidTicker
 	@Column(unique = true)
-	private String				ticker;
+	private String					ticker;
 
 	@Mandatory
 	@ValidHeader
 	@Column(length = 75)
-	private String				name;
+	private String					name;
 
 	@Mandatory
 	@ValidText
 	@Column(length = 255)
-	private String				description;
+	private String					description;
 
 	@Mandatory
 	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date				startMoment;
+	private Date					startMoment;
 
 	@Mandatory
 	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
 	@Temporal(TemporalType.TIMESTAMP)
-	private Date				endMoment;
+	private Date					endMoment;
 
 	@Optional
 	@ValidUrl
 	@Column(length = 255)
-	private String				moreInfo;
+	private String					moreInfo;
 
 	@Mandatory
 	@Column
-	private Boolean				draftMode;
+	private Boolean					draftMode;
 
 	// -----------------
 	// DERIVED
 	// -----------------
+
+	@Transient
+	@Autowired
+	private SponsorshipRepository	repository;
 
 
 	@Transient
@@ -88,16 +94,31 @@ public class Sponsorship extends AbstractEntity {
 		return result;
 	}
 
-
 	@Transient
-	public Money	totalMoney;
+	public Money totalMoney() {
+		Money result;
+
+		if (this.repository == null || this.getId() == 0) {
+			result = new Money();
+			result.setAmount(0.0);
+			result.setCurrency("EUR");
+		} else {
+			Double totalAmount = this.repository.computeTotalMoneyBySponsorshipId(this.getId());
+			result = new Money();
+			result.setAmount(totalAmount == null ? 0.0 : totalAmount);
+			result.setCurrency("EUR"); // Asegúrate de que todas las donations usan la misma moneda
+		}
+
+		return result;
+	}
 	// -----------------
 	// RELATIONSHIPS
 	// -----------------
 
+
 	@Mandatory
 	@Valid
 	@ManyToOne(optional = false)
-	private Sponsor	sponsor;
+	private Sponsor sponsor;
 
 }

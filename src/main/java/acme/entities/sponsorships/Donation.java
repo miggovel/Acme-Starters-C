@@ -23,7 +23,7 @@ import lombok.Setter;
 public class Donation extends AbstractEntity {
 
 	private static final long	serialVersionUID	= 1L;
-
+	//sasadwedwdw
 	@Mandatory
 	@ValidHeader
 	@Column(length = 75)
