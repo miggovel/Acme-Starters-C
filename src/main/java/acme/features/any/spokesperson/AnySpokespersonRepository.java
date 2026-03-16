@@ -10,7 +10,7 @@ import acme.realms.Spokesperson;
 @Repository
 public interface AnySpokespersonRepository extends AbstractRepository {
 
-	@Query("select s from Spokesperson s where f.id = :id")
+	@Query("select s from Spokesperson s where s.id = :id")
 	Spokesperson findSpokespersonById(int id);
 
 }
