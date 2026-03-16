@@ -1,0 +1,4 @@
+acme.validation.campaign.duplicated-ticker.message = The ticker is duplicated
+acme.validation.campaign.interval.message = End moment must be after start moment
+acme.validation.campaign.publish.minimum-milestones.message = You must define at least one milestone before publishing
+acme.validation.campaign.publish.interval.message = Start and end moments must define a future interval when publishing
