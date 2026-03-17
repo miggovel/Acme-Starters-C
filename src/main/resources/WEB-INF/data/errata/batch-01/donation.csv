@@ -1,0 +1,51 @@
+key,name,notes,money,kind,key:sponsorship
+donation-00,"John Carter","First donation to support the project development","EUR 0.00",ALTRUIST,sponsorship-00
+donation-01,"Maria Lopez","Small symbolic contribution from a supporter","EUR 0.01",REWARDED,sponsorship-01
+donation-02,"David Chen","Large celebratory donation for the campaign","EUR 999999.99",CELEBRATED,sponsorship-02
+donation-03,"Anna Schmidt","Donation exceeding allowed maximum","EUR 1000000.00",ALTRUIST,sponsorship-03
+donation-04,"Carlos Romero","Support from a regular contributor","EUR 5.25",REWARDED,sponsorship-04
+donation-05,"Emily Johnson","Contribution made during the fundraising event","EUR 12.40",CELEBRATED,sponsorship-05
+donation-06,"Lucas Martin","Helping the organisation continue its work","EUR 3.75",ALTRUIST,sponsorship-06
+donation-07,"Isabella Rossi","Donation sent through the website","EUR 7.90",REWARDED,sponsorship-07
+donation-08,"Oliver Brown","Contribution from a community member","EUR 6.10",CELEBRATED,sponsorship-08
+donation-09,"Sophia Wilson","Support for upcoming development activities","EUR 9.80",ALTRUIST,sponsorship-09
+donation-10,"Daniel Garcia","Donation given after project presentation","EUR 15.00",REWARDED,sponsorship-10
+donation-11,"Mia Hernandez","Contribution made by a long time supporter","EUR 11.20",CELEBRATED,sponsorship-11
+donation-12,"Liam Anderson","Helping fund new resources","EUR 14.75",ALTRUIST,sponsorship-12
+donation-13,"Charlotte Thomas","Small reward based contribution","EUR 18.60",REWARDED,sponsorship-13
+donation-14,"Noah Martinez","Celebratory donation from sponsor","EUR 20.30",CELEBRATED,sponsorship-14
+donation-15,"Amelia Taylor","General support for the programme","EUR 13.10",ALTRUIST,sponsorship-15
+donation-16,"James Moore","Contribution received from partner","EUR 17.45",REWARDED,sponsorship-16
+donation-17,"Ava Jackson","Donation to celebrate milestone achievement","EUR 21.90",CELEBRATED,sponsorship-17
+donation-18,"Benjamin White","Support received via online platform","EUR 4.50",ALTRUIST,sponsorship-18
+donation-19,"Evelyn Harris","Contribution aimed at improving services","EUR 22.75",REWARDED,sponsorship-19
+donation-20,"William Clark","Donation collected during charity event","EUR 16.30",CELEBRATED,sponsorship-20
+donation-21,"Harper Lewis","General assistance for project expenses","EUR 19.40",ALTRUIST,sponsorship-21
+donation-22,"Alexander Walker","Contribution from supportive volunteer","EUR 23.85",REWARDED,sponsorship-22
+donation-23,"Ella Hall","Celebration donation for successful launch","EUR 25.00",CELEBRATED,sponsorship-23
+donation-24,"Michael Allen","Help provided by community donor","EUR 26.60",ALTRUIST,sponsorship-24
+donation-25,"Scarlett Young","Reward based contribution from user","EUR 28.90",REWARDED,sponsorship-25
+donation-26,"Ethan King","Celebratory contribution after announcement","EUR 30.75",CELEBRATED,sponsorship-26
+donation-27,"Grace Wright","General funding support","EUR 24.10",ALTRUIST,sponsorship-27
+donation-28,"Henry Scott","Contribution sent via sponsorship page","EUR 27.50",REWARDED,sponsorship-28
+donation-29,"Chloe Green","Celebration of project collaboration","EUR 29.20",CELEBRATED,sponsorship-29
+donation-30,"Sebastian Baker","Support for infrastructure improvements","EUR 31.00",ALTRUIST,sponsorship-30
+donation-31,"Victoria Adams","Donation received through community drive","EUR 32.45",REWARDED,sponsorship-31
+donation-32,"Jack Nelson","Celebratory support from partner","EUR 34.60",CELEBRATED,sponsorship-32
+donation-33,"Lily Carter","Contribution to maintain service quality","EUR 35.10",ALTRUIST,sponsorship-33
+donation-34,"Samuel Mitchell","Donation from enthusiastic supporter","EUR 36.95",REWARDED,sponsorship-34
+donation-35,"Zoe Perez","Celebration donation from alumni","EUR 38.80",CELEBRATED,sponsorship-35
+donation-36,"Matthew Roberts","Support aimed at development tasks","EUR 40.20",ALTRUIST,sponsorship-36
+donation-37,"Hannah Turner","Reward contribution for participation","EUR 42.00",REWARDED,sponsorship-37
+donation-38,"Joseph Phillips","Celebratory funding support","EUR 44.35",CELEBRATED,sponsorship-38
+donation-39,"Natalie Campbell","Contribution towards operational costs","EUR 45.70",ALTRUIST,sponsorship-39
+donation-40,"Andrew Parker","Reward donation via online portal","EUR 47.15",REWARDED,sponsorship-40
+donation-41,"Leah Evans","Celebratory contribution after success","EUR 50.00",CELEBRATED,sponsorship-41
+donation-42,"Christopher Edwards","General support from benefactor","EUR 55.40",ALTRUIST,sponsorship-42
+donation-43,"Sofia Collins","Reward based funding help","EUR 60.80",REWARDED,sponsorship-43
+donation-44,"Nathan Stewart","Celebration donation for campaign end","EUR 65.30",CELEBRATED,sponsorship-44
+donation-45,"Lucy Sanchez","Contribution supporting platform growth","EUR 70.75",ALTRUIST,sponsorship-45
+donation-46,"Ryan Morris","Reward contribution for project milestone","EUR 80.50",REWARDED,sponsorship-46
+donation-47,"Ariana Rogers","Celebratory donation from supporter","EUR 85.90",CELEBRATED,sponsorship-47
+donation-48,"Jonathan Reed","General financial assistance","EUR 90.40",ALTRUIST,sponsorship-48
+donation-49,"Elena Cook","Reward based donation for participation","EUR 95.60",REWARDED,sponsorship-49

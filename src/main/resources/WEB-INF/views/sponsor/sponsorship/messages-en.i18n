@@ -1,0 +1,34 @@
+# messages-en.i18n for Sponsorship
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do they
+# accept any liabilities with respect to them.
+
+sponsor.sponsorship.list.title = Listing of my sponsorships
+sponsor.sponsorship.form.title = Sponsorship form
+
+sponsor.sponsorship.list.label.ticker = Ticker
+sponsor.sponsorship.list.label.name = Name
+sponsor.sponsorship.list.label.total-money = Total money
+sponsor.sponsorship.list.label.draft-mode = Draft mode
+
+sponsor.sponsorship.form.label.ticker = Ticker:
+sponsor.sponsorship.form.label.name = Name:
+sponsor.sponsorship.form.label.description = Description:
+sponsor.sponsorship.form.label.start-moment = Start moment:
+sponsor.sponsorship.form.label.end-moment = End moment:
+sponsor.sponsorship.form.label.more-info = More info: (Optional)
+sponsor.sponsorship.form.label.months-active = Months active:
+sponsor.sponsorship.form.label.total-money = Total money:
+
+sponsor.sponsorship.form.button.sponsor-profile = Sponsor profile
+sponsor.sponsorship.form.button.create = Create
+sponsor.sponsorship.form.button.update = Update
+sponsor.sponsorship.form.button.delete = Delete
+sponsor.sponsorship.form.button.publish = Publish
+
+sponsor.sponsorship.list.button.create = Create

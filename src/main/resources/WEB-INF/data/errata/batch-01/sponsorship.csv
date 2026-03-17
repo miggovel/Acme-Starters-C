@@ -1,0 +1,51 @@
+key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:sponsor
+sponsorship-00,SP00-AAAA1,"Green Infrastructure","Funding plan for renewable infrastructure projects",2000/01/01 00:00,2025/01/08 00:00,"http://www.lorem-ipsum.org",FALSE,sponsor-01
+sponsorship-01,SP01-BBBB2,"Local Startup Boost","Programme supporting emerging technology startups",2000/01/01 00:01,2025/01/08 00:01,"http://example.org",FALSE,sponsor-01
+sponsorship-02,SP02-CCCC3,"Health Innovation","Investment initiative in healthcare technology",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a",FALSE,sponsor-02
+sponsorship-03,SP03-DDDD4,"โลเร็ม อิปซัม","Supporting international collaboration initiatives",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b",TRUE,sponsor-01
+sponsorship-04,SP04-EEEE5,"لوريم إيبسوم","Regional innovation support programme",2000/01/01 00:00,2025/01/08 00:01,"http://example.org?",FALSE,sponsor-02
+sponsorship-05,SP05-FFFF6,"洛伦·伊普森","Funding technological research projects",2000/01/01 00:01,2025/01/08 00:00,"http://example.org?a=1&b=2",TRUE,sponsor-01
+sponsorship-06,SP06-GGGG7,"<marquee>Hacked</marquee>","Testing header validation with HTML content",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?",FALSE,sponsor-02
+sponsorship-07,SP07-HHHH8,"<script>alert('Hacked!');</script>","Testing script injection inside header",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b?a&b",TRUE,sponsor-01
+sponsorship-08,SP08-IIII9,"' or 'A' = 'A","Testing SQL injection style input",2000/01/01 00:00,2025/01/08 00:00,"http://example.org/",FALSE,sponsor-02
+sponsorship-09,SP09-JJJJ1,"Innovation Support","Long term financial backing for research teams",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a",TRUE,sponsor-01
+sponsorship-10,SP10-KKKK2,"Regional Development","Improving digital infrastructure in rural areas",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b",TRUE,sponsor-02
+sponsorship-11,SP11-LLLL3,"Education Initiative","Programme aimed at supporting education technology",2025/01/01 00:00,2201/01/01 00:00,"http://example.org?",FALSE,sponsor-01
+sponsorship-12,SP12-MMMM4,"โลเร็ม อิปซัม","International cooperation funding plan",2000/01/01 00:00,2025/01/08 00:00,"http://example.org?a",TRUE,sponsor-02
+sponsorship-13,SP13-NNNN5,"لوريم إيبسوم","Regional development investment strategy",2000/01/01 00:01,2025/01/08 00:01,"http://example.org?a&b",FALSE,sponsor-01
+sponsorship-14,SP14-OOOO6,"洛伦·伊普森","Scientific collaboration programme",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?",FALSE,sponsor-02
+sponsorship-15,SP15-PPPP7,"Sustainable Energy","Funding for renewable energy technologies",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b?a&b",TRUE,sponsor-01
+sponsorship-16,SP16-QQQQ8,"Community Support","Helping local communities through investment",2000/01/01 00:00,2025/01/08 00:00,"http://www.lorem-ipsum.org",FALSE,sponsor-02
+sponsorship-17,SP17-RRRR9,"Digital Innovation","Encouraging digital transformation projects",2000/01/01 00:01,2025/01/08 00:01,"http://example.org",FALSE,sponsor-01
+sponsorship-18,SP18-SSSS1,"Global Research","Support for international research programmes",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a",TRUE,sponsor-02
+sponsorship-19,SP19-TTTT2,"Environmental Action","Investment in environmental protection initiatives",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b",TRUE,sponsor-01
+sponsorship-20,SP20-UUUU3,"Smart Cities","Funding urban digitalisation projects",2000/01/01 00:00,2025/01/08 00:00,"http://example.org?",FALSE,sponsor-02
+sponsorship-21,SP21-VVVV4,"โลเร็ม อิปซัม","Programme encouraging international partnerships",2000/01/01 00:01,2025/01/08 00:01,"http://example.org?a=1&b=2",FALSE,sponsor-01
+sponsorship-22,SP22-WWWW5,"لوريم إيبسوم","Innovation programme for SMEs",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?",TRUE,sponsor-02
+sponsorship-23,SP23-XXXX6,"洛伦·伊普森","Support programme for technology transfer",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b?a&b",TRUE,sponsor-01
+sponsorship-24,SP24-YYYY7,"Digital Education","Investing in online learning platforms",2000/01/01 00:00,2025/01/08 00:00,"http://example.org/",FALSE,sponsor-02
+sponsorship-25,SP25-ZZZZ8,"Green Mobility","Funding projects for sustainable transportation",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a",FALSE,sponsor-01
+sponsorship-26,SP26-ABCD9,"AI Research","Support for artificial intelligence development",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b",TRUE,sponsor-02
+sponsorship-27,SP27-BCDE1,"Health Systems","Programme strengthening healthcare infrastructure",2025/01/01 00:00,2201/01/01 00:00,"http://example.org?",TRUE,sponsor-01
+sponsorship-28,SP28-CDEF2,"Energy Transition","Supporting transition to renewable energy",2000/01/01 00:00,2025/01/08 00:00,"http://example.org?a",FALSE,sponsor-02
+sponsorship-29,SP29-DEFG3,"Startup Acceleration","Programme boosting early stage startups",2000/01/01 00:01,2025/01/08 00:01,"http://example.org?a&b",FALSE,sponsor-01
+sponsorship-30,SP30-EFGH4,"Innovation Labs","Funding experimental research laboratories",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?",TRUE,sponsor-02
+sponsorship-31,SP31-FGHI5,"Climate Action","Investments addressing climate change",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/a/b?a&b",TRUE,sponsor-01
+sponsorship-32,SP32-GHIJ6,"Data Science","Support programme for big data research",2000/01/01 00:00,2025/01/08 00:00,"http://example.org/",FALSE,sponsor-02
+sponsorship-33,SP33-HIJK7,"Medical Technology","Funding innovation in medical devices",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a",FALSE,sponsor-01
+sponsorship-34,SP34-IJKL8,"Robotics Research","Support robotics and automation projects",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b",TRUE,sponsor-02
+sponsorship-35,SP35-JKLM9,"Space Technology","Funding aerospace technology initiatives",2025/01/01 00:00,2201/01/01 00:00,"http://example.org?",TRUE,sponsor-01
+sponsorship-36,SP36-KLMN1,"โลเร็ม อิปซัม","Testing multilingual header validation",2000/01/01 00:00,2025/01/08 00:00,"http://example.org?a=1&b=2",FALSE,sponsor-02
+sponsorship-37,SP37-LMNO2,"لوريم إيبسوم","Testing arabic characters in fields",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a/b?",FALSE,sponsor-01
+sponsorship-38,SP38-MNOP3,"洛伦·伊普森","Testing chinese characters in fields",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?a&b",TRUE,sponsor-02
+sponsorship-39,SP39-NOPQ4,"<marquee>Hacked</marquee>","HTML injection validation test",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/",TRUE,sponsor-01
+sponsorship-40,SP40-OPQR5,"<script>alert('Hacked!');</script>","Script injection validation test",2000/01/01 00:00,2025/01/08 00:00,"http://example.org/a",FALSE,sponsor-02
+sponsorship-41,SP41-PQRS6,"' or 'A' = 'A","SQL injection validation test",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a/b",FALSE,sponsor-01
+sponsorship-42,SP42-QRST7,"Global Innovation","Funding collaboration between universities",2024/12/31 23:59,2200/12/31 23:59,"http://example.org?",TRUE,sponsor-02
+sponsorship-43,SP43-RSTU8,"Technology Transfer","Helping research results reach industry",2025/01/01 00:00,2201/01/01 00:00,"http://example.org?a",TRUE,sponsor-01
+sponsorship-44,SP44-STUV9,"Regional Investment","Funding infrastructure improvements",2000/01/01 00:00,2025/01/08 00:00,"http://example.org?a&b",FALSE,sponsor-02
+sponsorship-45,SP45-TUVW1,"Community Projects","Support local innovation initiatives",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a/b?",FALSE,sponsor-01
+sponsorship-46,SP46-UVWX2,"Smart Infrastructure","Investment in intelligent transport systems",2024/12/31 23:59,2200/12/31 23:59,"http://example.org/a/b?a&b",TRUE,sponsor-02
+sponsorship-47,SP47-VWXY3,"Digital Transformation","Helping organisations adopt new technologies",2025/01/01 00:00,2201/01/01 00:00,"http://example.org/",TRUE,sponsor-01
+sponsorship-48,SP48-WXYZ4,"Future Technologies","Supporting cutting edge innovation",2000/01/01 00:00,2025/01/08 00:00,"http://example.org/a",FALSE,sponsor-02
+sponsorship-49,SP49-XYZA5,"Research Collaboration","Encouraging international research networks",2000/01/01 00:01,2025/01/08 00:01,"http://example.org/a/b",FALSE,sponsor-01

@@ -8,3 +8,6 @@ user-account-provider-03,true,"UserIdentity{name: 'Antonia', surname: 'Provider'
 user-account-fundraiser-01,true,"UserIdentity{name: 'Fiona', surname: 'Fundraiser', email: 'fundraiser1@acme.com'}",fundraiser1,fundraiser1
 user-account-fundraiser-02,true,"UserIdentity{name: 'Hector', surname: 'Fundraiser', email: 'fundraiser2@acme.com'}",fundraiser2,fundraiser2
 user-account-fundraiser-03,true,"UserIdentity{name: 'Irene', surname: 'Fundraiser', email: 'fundraiser3@acme.com'}",fundraiser3,fundraiser3
+user-account-sponsor-01,true,"UserIdentity{name: 'Pili', surname: 'Sponsor', email: 'sponsor1@acme.com'}",sponsor1,sponsor1
+user-account-sponsor-02,true,"UserIdentity{name: 'Manolo', surname: 'Sponsor', email: 'sponsor2@acme.com'}",sponsor2,sponsor2
+user-account-sponsor-03,true,"UserIdentity{name: 'Maria', surname: 'Sponsor', email: 'sponsor3@acme.com'}",sponsor3,sponsor3
