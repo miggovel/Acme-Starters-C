@@ -1,7 +1,7 @@
 authenticated.spokesperson.form.title = Spokesperson form
 
 authenticated.spokesperson.form.label.cv = Cv:
-authenticated.spokesperson.form.label.achievement = Achievements:
+authenticated.spokesperson.form.label.achievements = Achievements:
 authenticated.spokesperson.form.label.licensed = Licensed:
 
 authenticated.spokesperson.form.button.create = Register

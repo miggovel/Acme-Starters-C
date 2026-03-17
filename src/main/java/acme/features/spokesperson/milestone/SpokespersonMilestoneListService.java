@@ -46,7 +46,7 @@ public class SpokespersonMilestoneListService extends AbstractService<Spokespers
 	public void unbind() {
 		boolean showCreate;
 
-		super.unbindObjects(this.milestones, "title", "achievements", "effort", "notes");
+		super.unbindObjects(this.milestones, "title", "achievements", "effort", "kind");
 
 		showCreate = this.campaign.getDraftMode() && this.campaign.getSpokesperson().isPrincipal();
 		super.unbindGlobal("campaignId", this.campaign.getId());

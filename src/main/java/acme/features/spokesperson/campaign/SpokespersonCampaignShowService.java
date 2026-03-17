@@ -42,7 +42,7 @@ public class SpokespersonCampaignShowService extends AbstractService<Spokesperso
 	public void unbind() {
 		Tuple tuple;
 
-		tuple = super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "getMonthsActive", "getEffort", "draftMode");
+		tuple = super.unbindObject(this.campaign, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "effort", "draftMode");
 		tuple.put("spokespersonId", this.campaign.getSpokesperson().getId());
 		tuple.put("spokespersonName", this.campaign.getSpokesperson().getIdentity().getFullName());
 	}

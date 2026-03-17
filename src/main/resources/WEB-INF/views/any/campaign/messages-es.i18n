@@ -11,7 +11,7 @@ any.campaign.form.label.description = Descripcion:
 any.campaign.form.label.start-moment = Momento inicial:
 any.campaign.form.label.end-moment = Momento final:
 any.campaign.form.label.more-info = Mas informacion: (Opcional)
-any.campaign.form.label.mnths-active = Meses activos:
+any.campaign.form.label.months-active = Meses activos:
 any.campaign.form.label.effort = Esfuerzo:
 
 any.campaign.form.button.milestones = Hitos
