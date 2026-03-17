@@ -2,12 +2,14 @@
 package acme.features.any.campaign;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import acme.client.components.models.Tuple;
 import acme.client.components.principals.Any;
 import acme.client.services.AbstractService;
 import acme.entities.campaigns.Campaign;
 
+@Service
 public class AnyCampaignShowService extends AbstractService<Any, Campaign> {
 
 	// Internal state ---------------------------------------------------------

@@ -1,14 +1,14 @@
 any.milestone.list.title = Listing of milestones
 any.milestone.form.title = Milestone form
 
-any.milestone.list.label.name = Name
+any.milestone.list.label.title = Title
 any.milestone.list.label.kind = Kind
-any.milestone.list.label.expected-percentage = Expected percentage
+any.milestone.list.label.effort = Effort
 
 any.milestone.form.label.title = Title:
 any.milestone.form.label.kind = Kind:
 any.milestone.form.label.effort = Effort:
-any.milestone.form.label.achivements = Achievements:
+any.milestone.form.label.achievements = Achievements:
 
 TEASER = Teaser
 ENGAGING = Engaging

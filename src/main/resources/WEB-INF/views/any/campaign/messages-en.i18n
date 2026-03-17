@@ -1,5 +1,5 @@
 any.campaign.list.title = Listing of campaign
-any.campaign.form.title = campaign form
+any.campaign.form.title = Campaign form
 
 any.campaign.list.label.ticker = Ticker
 any.campaign.list.label.start-moment = Start moment
@@ -11,8 +11,8 @@ any.campaign.form.label.description = Description:
 any.campaign.form.label.start-moment = Start moment:
 any.campaign.form.label.end-moment = End moment:
 any.campaign.form.label.more-info = More info: (Optional)
-any.campaign.form.label.get-months-active = Months active:
-any.campaign.form.label.get-effort = Effort:
+any.campaign.form.label.months-active = Months active:
+any.campaign.form.label.effort = Effort:
 
 any.campaign.form.button.milestones = Milestones
 any.campaign.form.button.spokesperson-profile = Spokesperson profile
