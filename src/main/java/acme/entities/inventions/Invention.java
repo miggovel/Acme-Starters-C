@@ -1,6 +1,9 @@
 
 package acme.entities.inventions;
 
+import java.time.temporal.ChronoUnit;
+import java.util.Date;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.ManyToOne;
@@ -9,14 +12,16 @@ import javax.persistence.TemporalType;
 import javax.persistence.Transient;
 import javax.validation.Valid;
 
+import org.springframework.beans.factory.annotation.Autowired;
+
 import acme.client.components.basis.AbstractEntity;
-import acme.client.components.datatypes.Moment;
 import acme.client.components.datatypes.Money;
 import acme.client.components.validation.Mandatory;
 import acme.client.components.validation.Optional;
 import acme.client.components.validation.ValidMoment;
-import acme.client.components.validation.ValidMoment.Constraint;
 import acme.client.components.validation.ValidUrl;
+import acme.client.helpers.MathHelper;
+import acme.client.helpers.MomentHelper;
 import acme.constraints.ValidHeader;
 import acme.constraints.ValidText;
 import acme.constraints.ValidTicker;
@@ -29,11 +34,7 @@ import lombok.Setter;
 @Setter
 public class Invention extends AbstractEntity {
 
-	// Serialisation version --------------------------------------------------
-
 	private static final long	serialVersionUID	= 1L;
-
-	// Serialisation version --------------------------------------------------
 
 	@Mandatory
 	@ValidTicker
@@ -51,47 +52,64 @@ public class Invention extends AbstractEntity {
 	private String				description;
 
 	@Mandatory
-	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
-	@Temporal(TemporalType.TIMESTAMP) // solucion usar date! 
-	private Moment				startMoment;
+	@ValidMoment
+	@Temporal(TemporalType.TIMESTAMP)
+
+	private Date				startMoment;
 
 	@Mandatory
-	@ValidMoment(constraint = Constraint.ENFORCE_FUTURE)
+	@ValidMoment
 	@Temporal(TemporalType.TIMESTAMP)
-	private Moment				endMoment;
 
+	private Date				endMoment;
 	@Optional
 	@ValidUrl
 	@Column
 	private String				moreInfo;
 
-	// Derived attributes -----------------------------------------------------
-
-
-	@Valid //valid si ? 
-	@Transient
-	public Double monthsActive() {
-		double result = 0.0;
-		return result;
-
-		//result = 
-	}
-
-	// usar el repostorio del part !
-
-	//@ValidMoney(min = 0) // me devuelve money 
-	@Transient
-	public Money cost() {
-		Money result = null;
-		return result;
-
-	}
-
-	// Relationships ----------------------------------------------------------
-
-
-	// many to one con el inventor 
 	@Mandatory
-	@ManyToOne
+	@Valid
+	@Column
+	private Boolean				draftMode;
+
+	// Propiedades derivadas (Transient) --------------------------------
+
+	@Transient
+	@Autowired
+	private InventionRepository	repository;
+
+
+	@Mandatory
+	@Valid
+	@Transient
+	public Double getMonthsActive() {
+
+		if (this.startMoment == null || this.endMoment == null || !MomentHelper.isAfter(this.endMoment, this.startMoment))
+			return 0.0;
+
+		double months_roundOf = MomentHelper.computeDifference(this.startMoment, this.endMoment, ChronoUnit.MONTHS);
+
+		months_roundOf = MathHelper.roundOff(months_roundOf, 2);
+
+		return Math.max(0.0, months_roundOf);
+	}
+
+	@Transient
+	public Money getCost() {
+		Money res = new Money();
+		res.setCurrency("EUR");
+
+		Double amount = this.repository.computeCost(this.getId());
+		res.setAmount(amount == null ? 0.0 : amount);
+
+		return res;
+	}
+	// Relaciones -------------------------------------------------------------
+
+
+	@Mandatory
+	@Valid
+	@ManyToOne(optional = false)
 	private Inventor inventor;
+
 }

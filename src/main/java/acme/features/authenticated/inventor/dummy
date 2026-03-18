@@ -1,0 +1,7 @@
+any : cualquier usuario logueado o no , cualquier usuario debe poder list show nuestras cosas publicadas
+
+crear servicios y controladores necesarios 
+
+authenticated: gente logueada -> servicios y controladores  repositorios 
+ dentro de auth , hacer una capeta inventor 
+ 	crear un package 

@@ -1,0 +1,62 @@
+key,ticker,name,description,startMoment,endMoment,moreInfo,key:inventor,draftMode
+# Base Entity
+invention-01,GL00-y8QljBIi,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# Ticker - Standard @Column(unique = true) variations
+# Note: 0 < 1 < ... < 9 < A < B < ... < Z < _ < a < b < ... < z
+invention-02,AA00-00000,"LLorem ipsum dolor sit amet","LLorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-03,AA00-00001,"LLorem ipsum dolor sit amet","LLorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-04,ZZ99-zzzzzzzzzy,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-05,ZZ99-zzzzzzzzzz,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# Name - Standard @ValidHeader variations
+invention-06,LZ58-BJ99rmj,L,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-07,KA74-JmK1BI,Lo,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-08,QE31-Pskwy,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod t","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-09,QV78-XUcSApH0A,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod te","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-10,MU37-8brZApKVGS,โลเร็ม อิปซัม,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-11,OD08-UlY_QUd,لوريم إيبسوم,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-12,BA19-S0jl79gnz,洛伦·伊普森,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-13,MJ97-26I3nI,<marquee>Hacked</marquee>,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-14,JC56-o24wpgl5k5,<script>alert(‘Hacked!’);</script>,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-15,JC02-MUpdBdM,' or 'A' = 'A,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# Description - Standard variations
+invention-16,VY81-7RPd_B,"Lorem ipsum dolor sit amet",L,2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-17,NB82-Ko0ff3,"Lorem ipsum dolor sit amet",Lo,2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-18,FC28-KCn7UqBu,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-19,KF50-lyOoWCzi,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor*",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-20,VN17-4eGhQ6,"Lorem ipsum dolor sit amet",โลเร็ม อิปซัม,2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-21,CU32-xUivpfu,"Lorem ipsum dolor sit amet",لوريم إيبسوم,2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-22,OO02-0kEcqR,"Lorem ipsum dolor sit amet","洛伦·伊普森",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-23,VL72-zTYQSWzVN0,"Lorem ipsum dolor sit amet","<marquee>Hacked</marquee>",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-24,LJ99-EoxSXR,"Lorem ipsum dolor sit amet","<script>alert(‘Hacked!’);</script>",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-25,FA57-6JtOZp5,"Lorem ipsum dolor sit amet","' or 'A' = 'A ",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# StartMoment - Standard variations
+invention-26,NA32-b1y5kQo,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2000/01/01 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-27,TR81-67v2stW_,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2000/01/01 00:01,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-28,US69-kHvc2NuyYs,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2200/12/31 23:58,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-29,NT22-_p1Wz,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2200/12/31 23:59,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# EndMoment - Standard variation
+invention-30,DO10-bII_Th,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2000/01/01 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-31,XZ34-NhGtwhNt,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2000/01/01 00:01,"http://lorem.com/ipsum",inventor-01,true
+invention-32,FC78-aLiRM4GFc,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2200/12/31 23:58,"http://lorem.com/ipsum",inventor-02,true
+invention-33,PO71-VoiEC0,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2200/12/31 23:59,"http://lorem.com/ipsum",inventor-01,true
+# MoreInfo - Standard @ValidURL variations
+invention-34,PK57-fQ8D3,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://a.b",inventor-02,true
+invention-35,PO62-9Kz1ZEd,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/",inventor-01,true
+invention-36,WG36-hLIzOtzaEI,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/X",inventor-02,true
+invention-37,NU83-gGX_pTNY,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org",inventor-01,true
+invention-38,VQ52-za2OueRB4Y,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"https://www.lorem-ipsum.org",inventor-02,true
+invention-39,BS97-m0WxOnxU,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org/dolor/sit.html",inventor-01,true
+invention-40,PR90-AZIo2,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org/dolor/sit.html#dolor",inventor-02,true
+invention-41,ZY37-5PYg1Fxid,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org?a=1&b=2",inventor-01,true
+invention-42,NH07-2yhOCTJ,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org?",inventor-02,true
+invention-43,OP62-ps36g,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org?a",inventor-01,true
+invention-44,ZJ45-9RTmGUV,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org?a&b",inventor-02,true
+invention-45,UM73-LNQ7x3uAw,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org/",inventor-01,true
+invention-46,UP86-D1bXTtC,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org/a",inventor-02,true
+invention-47,UE69-VAs8TcU9,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org/a/b",inventor-01,true
+invention-48,OM27-g1dfdUNapl,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org/a/b?",inventor-02,true
+invention-49,PC37-5jRJs,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://example.org/a/b?a&b",inventor-01,true
+# DraftMode - Standard variations
+invention-50,LQ32-qaErA2Kqi,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-02,true
+invention-51,JV58-0hXC8,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2025/01/08 00:00,2025/01/09 00:00,"http://lorem.com/ipsum",inventor-01,false
+

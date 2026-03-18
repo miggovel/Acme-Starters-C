@@ -1,0 +1,49 @@
+key,ticker,name,description,startMoment,endMoment,moreInfo,key:inventor,draftMode
+# Ticker - Standard variations
+invention-01,,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-02,00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-03,a00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-04,aa00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-05,A00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-06,AAA00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-07,AA0-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-08,AA000-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-09,00AA-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-10,A#00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-11,AA0012345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-12,AA00_12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-13,AA00.12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-14,AA00 12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-15,AA00--12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-16,AA00-1234,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-17,AA00-abc12345678,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-18,AA00-123 ab,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-19,AA00-abcde!,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-20,AA00-abcde?,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-21,AA00-abc.de,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-22,AA00-españa,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-23,AA00-avión,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-24, AA00-12345,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-25,AA00-12345 ,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-26, AA00-12345 ,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-27,AA00-12345; DROP TABLE,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# Name - Standard variations
+invention-28,AA00-00000,,"Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-29,AA00-00000,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# Description - Standard variations
+invention-30,AA00-00000,"Lorem ipsum dolor sit amet",,2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-31,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",2012/07/02 00:00,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# StartMoment - Standard variations
+invention-33,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-34,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",1999/12/31 23:59,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+invention-35,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2201/01/01 00:01,2012/07/02 00:00,"http://lorem.com/ipsum",inventor-01,true
+# EndMoment - Standard variations
+invention-37,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,,"http://lorem.com/ipsum",inventor-01,true
+invention-38,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,1999/12/31 23:59,"http://lorem.com/ipsum",inventor-01,true
+invention-39,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2201/01/01 00:01,"http://lorem.com/ipsum",inventor-01,true
+# MoreInfo - Standard variations
+invention-40,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://",inventor-01,true
+invention-41,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"ftp://",inventor-01,true
+invention-42,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://a",inventor-01,true
+invention-43,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"ftp://a",inventor-01,true
+invention-44,AA00-00000,"Lorem ipsum dolor sit amet","Lorem ipsum dolor sit amet",2012/07/02 00:00,2012/07/02 00:00,"http://www.lorem-ipsum.org/dolor/sit/amet,/consectetur/adipiscing/elit,/sed/do/eiusmod/tempor/incididunt/ut/labore/et/dolore/magna/aliqua/Ut/enim/ad/minim/veniam/quis/nostrud/exercitation/ullamco/laboris/nisi/ut/aliquip/ex/ea/commodo/consequat/duis/aute/x",inventor-01,true

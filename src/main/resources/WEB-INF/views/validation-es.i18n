@@ -1,15 +1,17 @@
-﻿# validation-es.i18n
+# validation-es.i18n
 #
 # Copyright (C) 2012-2026 Rafael Corchuelo.
 #
 # In keeping with the traditional purpose of furthering education and research, it is
 # the policy of the copyright owner to permit non-commercial use and redistribution of
 # this software. It has been tested carefully, but it is not guaranteed for any particular
-# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# purposes. The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-acme.validation.strategy.duplicated-ticker.message = La referencia ya existe
-acme.validation.strategy.interval.message = El momento final debe ser posterior al inicial
-acme.validation.strategy.publish.minimum-tactics.message = Debe existir al menos una tactica antes de publicar
-acme.validation.strategy.publish.expected-percentage.message = El porcentaje esperado total debe estar entre 0 y 100
-acme.validation.strategy.publish.interval.message = Los momentos inicial y final deben definir un intervalo futuro al publicar
+acme.validation.header.message = El campo no puede estar vacío y debe tener el tamaño correcto.
+acme.validation.text.message = El texto no puede estar vacío y debe tener el tamaño correcto.
+
+acme.validation.ticker.message = Formato de ticker incorrecto. Debe ser, por ejemplo, AA11-ABCDE.
+acme.validation.audit-report.invalid-period = La fecha de inicio debe ser estrictamente anterior a la de fin.
+acme.validation.audit-report.not-future = La fecha de inicio debe ser en el futuro.
+acme.validation.audit-report.duplicated-ticker.message = Ya existe un Informe de Auditoría con este Ticker.

@@ -1,0 +1,7 @@
+any.audit-report.form.button.auditor = View Auditor Profile
+
+any.inventor.form.title = Inventor Profile
+any.inventor.form.label.name = Name:
+any.inventor.form.label.surname = Surname:
+any.inventor.form.label.email = Email:
+any.inventor.form.label.bio = Inventor bio:
