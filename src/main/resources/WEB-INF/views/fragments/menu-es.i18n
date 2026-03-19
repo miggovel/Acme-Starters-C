@@ -12,7 +12,6 @@
 
 master.menu.anonymous = Anónimo
 master.menu.anonymous.list-campaigns = Ver campañas
-master.menu.anonymous = Anonimo
 master.menu.anonymous.list-strategies = Ver estrategias
 master.menu.anonymous.favourite-link = Enlace favorito
 
@@ -20,6 +19,7 @@ master.menu.anonymous.favourite-link = Enlace favorito
 
 master.menu.authenticated = Autenticado
 master.menu.authenticated.list-strategies = Ver estrategias
+master.menu.authenticated.list-campaigns = Ver campañas
 
 # master.menu.administrator ###################################################
 
@@ -28,11 +28,6 @@ master.menu.administrator.list-user-accounts = Ver cuentas de usuario
 master.menu.administrator.populate-db-initial = Poblar BD (inicial)
 master.menu.administrator.populate-db-sample = Poblar BD (ejemplos)
 master.menu.administrator.shut-system-down = Parar el sistema
-
-# master.menu.authenticated ###################################################
-
-master.menu.authenticated = Autenticado
-master.menu.authenticated.list-campaigns = Ver campañas
 
 # master.menu.provider ########################################################
 

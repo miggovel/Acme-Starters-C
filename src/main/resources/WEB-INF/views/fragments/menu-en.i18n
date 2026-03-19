@@ -18,8 +18,8 @@ master.menu.anonymous.favourite-link = Favourite link
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
-master.menu.authenticated.list-campaigns = List campaigns
 master.menu.authenticated.list-strategies = List strategies
+master.menu.authenticated.list-campaigns = List campaigns
 
 # master.menu.administrator ###################################################
 
