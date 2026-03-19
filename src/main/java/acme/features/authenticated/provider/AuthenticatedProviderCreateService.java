@@ -42,7 +42,7 @@ public class AuthenticatedProviderCreateService extends AbstractService<Authenti
 		userAccountId = super.getRequest().getPrincipal().getAccountId();
 		userAccount = this.repository.findUserAccountById(userAccountId);
 
-		this.provider = new Provider();
+		this.provider = super.newObject(Provider.class);
 		this.provider.setUserAccount(userAccount);
 	}
 
