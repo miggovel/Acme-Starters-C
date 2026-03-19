@@ -11,6 +11,7 @@
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anonymous
+master.menu.anonymous.list-inventions = List inventions
 master.menu.anonymous.list-campaigns = List campaigns
 master.menu.anonymous.list-strategies = List strategies
 master.menu.anonymous.favourite-link = Favourite link
@@ -18,6 +19,7 @@ master.menu.anonymous.favourite-link = Favourite link
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
+master.menu.authenticated.list-inventions = List inventions
 master.menu.authenticated.list-strategies = List strategies
 master.menu.authenticated.list-campaigns = List campaigns
 
@@ -39,6 +41,11 @@ master.menu.provider.favourite-link = Favourite link
 master.menu.consumer = Consumer
 master.menu.consumer.favourite-link = Favourite link
 
+# master.menu.inventor ##########################################################
+
+ master.menu.inventor = Inventor
+ master.menu.inventor.inventions = Inventions
+ 
 # master.menu.spokesperson ######################################################
 
 master.menu.spokesperson = Spokesperson
@@ -60,3 +67,13 @@ master.menu.user-account.become-spokesperson = Become a spokesperson
 master.menu.user-account.spokesperson-profile = Spokesperson profile
 master.menu.user-account.become-fundraiser = Become a fundraiser
 master.menu.user-account.fundraiser-profile = Fundraiser profile
+master.menu.user-account.become-inventor = Become an inventor
+master.menu.user-account.inventor-profile = Inventor profile
+
+master.menu.user-account.become-inventor = Convertirse en inventor
+master.menu.user-account.inventor-profile = Perfil de inventor
+
+# master.menu.inventor ##########################################################
+
+ master.menu.inventor = Inventor
+ master.menu.inventor.inventions = Invenciones
