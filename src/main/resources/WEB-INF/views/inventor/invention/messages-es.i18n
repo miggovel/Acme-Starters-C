@@ -1,0 +1,54 @@
+master.menu.inventor = Inventor
+master.menu.inventor.list-inventions = Mis Inventos
+
+
+########list
+inventor.invention.list.title = Mis Invenciones
+
+inventor.invention.list.label.ticker = Identificador
+inventor.invention.list.label.name = Nombre
+inventor.invention.list.label.startMoment = Fecha comienzo
+inventor.invention.list.label.endMoment = Fecha término
+inventor.invention.list.label.cost = Coste
+inventor.invention.list.label.draftMode = Modo borrador
+
+
+inventor.invention.list.button.create = Crear
+
+
+
+############form
+inventor.invention.form.title = Datos de la Invención
+
+inventor.invention.form.label.ticker = Identificador:
+inventor.invention.form.label.name = Nombre:
+inventor.invention.form.label.description = Descripción general:
+inventor.invention.form.label.startMoment = Fecha comienzo:
+inventor.invention.form.label.endMoment = Fecha término:
+inventor.invention.form.label.moreInfo = Más información (URL):
+inventor.invention.form.label.draftMode = Modo borrador:
+inventor.invention.form.label.cost = Coste total:
+inventor.invention.form.label.monthsActive = Meses activo:
+
+
+
+
+
+######################error
+inventor.invention.form.error.duplicate-ticker = Ese código (ticker) ya existe, pruebe otro por favor.
+
+
+inventor.invention.form.button.part = Piezas
+inventor.invention.form.button.create = Crear
+inventor.invention.form.button.update = Actualizar
+inventor.invention.form.button.delete = Eliminar
+inventor.invention.form.button.publish = Publicar
+
+#######################mensajes
+acme.validation.text.message = El formato del texto es inválido o contiene caracteres no permitidos.
+typeMismatch.java.util.Date = Formato de fecha incorrecto. El valor introducido no es válido.
+inventor.invention.form.error.no-parts = No se puede publicar si no tiene al menos una pieza asociada.
+
+
+inventor.invention.form.error.start-moment-future = La fecha de inicio debe ser una fecha en el futuro.
+inventor.invention.form.error.end-moment-future = La fecha de fin debe ser una fecha en el futuro.

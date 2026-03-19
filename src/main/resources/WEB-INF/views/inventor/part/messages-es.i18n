@@ -1,0 +1,24 @@
+inventor.part.list.title = Inventario de Piezas
+inventor.part.form.title = Datos de la Pieza
+
+inventor.part.list.label.name = Denominación
+inventor.part.list.label.cost = Importe
+inventor.part.list.label.kind = Modalidad
+
+inventor.part.form.label.name = Denominación:
+inventor.part.form.label.description = Resumen corto:
+inventor.part.form.label.cost = Importe:
+inventor.part.form.label.kind = Modalidad:
+
+PartKind.CORE = Principal
+PartKind.MANDATORY = Obligatorio
+PartKind.OPTIONAL = Opcional
+
+
+#####botones
+inventor.part.list.button.create = Crear
+inventor.part.form.button.create = Crear
+inventor.part.form.button.update = Actualizar
+inventor.part.form.button.delete = Eliminar
+
+inventor.part.form.error.invalid-currency = La divisa debe de ser EUR

@@ -1,0 +1,13 @@
+any.part.list.title = Inventario de piezas
+any.part.form.title = Datos de la pieza
+any.part.list.label.name = Denominación
+any.part.list.label.cost = Importe
+any.part.list.label.kind = Modalidad
+any.part.form.label.name = Denominación:
+any.part.form.label.description = Resumen corto:
+any.part.form.label.cost = Importe:
+any.part.form.label.kind = Modalidad:
+
+PartKind.CORE = Principal
+PartKind.MANDATORY = Obligatorio
+PartKind.OPTIONAL = Opcional

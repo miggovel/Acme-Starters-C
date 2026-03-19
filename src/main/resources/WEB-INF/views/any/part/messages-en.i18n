@@ -1,0 +1,13 @@
+any.part.list.title = Parts Inventory Catalog
+any.part.form.title = Part Information
+any.part.list.label.name = Denomination
+any.part.list.label.cost = Value
+any.part.list.label.kind = Category
+any.part.form.label.name = Denomination:
+any.part.form.label.description = Short Description:
+any.part.form.label.cost = Value:
+any.part.form.label.kind = Category:
+
+PartKind.CORE = Core
+PartKind.MANDATORY = Mandatory
+PartKind.OPTIONAL = Optional

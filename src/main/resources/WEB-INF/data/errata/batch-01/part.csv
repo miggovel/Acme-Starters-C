@@ -1,0 +1,42 @@
+key,key:invention,name,description,cost,kind
+#probar name erroneos
+part-01,invention-01,"","Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi. Cras justo odio, dapibus ac congue id, metus eges*",EUR 500.00,CORE
+part-02,invention-01,"",L,EUR 0.01,MANDATORY
+part-03,invention-02,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mile",Lo,EUR 0.02,OPTIONAL
+#probar description erroneos
+part-04,invention-02,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi","",EUR 999999.99,CORE
+part-05,invention-03,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mil","",EUR 1000000.00,MANDATORY
+part-06,invention-03,โลเร็ม อิปซัม,"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do: eiusmod tempor incididunt ut labore et dolore magna aliqua! Ut enim ad minim veniam? Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor i",EUR 500.00,OPTIONAL
+#probar cost
+part-07,invention-04,لوريم إيبسوم,لوريم إيبسوم,"",CORE
+part-08,invention-04,洛伦·伊普森,洛伦·伊普森,EUR -0.01,MANDATORY
+part-09,invention-05,<marquee>Hacked</marquee>,<marquee>Hacked</marquee>,EUR 1000000.01,OPTIONAL
+#probar kind erroneos
+part-10,invention-05,<script>alert(‘Hacked!’);</script>,<script>alert(‘Hacked!’);</script>,EUR 1000000.00,""
+#A PARTIR DE AQUI SOBRAN
+part-11,invention-06,' or 'A' = 'A,' or 'A' = 'A,EUR 500.00,MANDATORY
+part-12,invention-06,"Vestibulum id ligula porta felis euis!","Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi. Cras justo odio, dapibus ac congue id, metus eges*",EUR 0.01,OPTIONAL
+part-13,invention-07,L,L,EUR 0.02,CORE
+part-14,invention-07,Lo,Lo,EUR 999999.99,MANDATORY
+part-15,invention-08,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi","Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el",EUR 1000000.00,OPTIONAL
+part-16,invention-08,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mil","Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el*",EUR 500.00,CORE
+part-17,invention-09,โลเร็ม อิปซัม,โลเร็ม อิปซัม,EUR 0.01,MANDATORY
+part-18,invention-09,لوريم إيبسوم,لوريم إيبسوم,EUR 0.02,OPTIONAL
+part-19,invention-10,洛伦·伊普森,洛伦·伊普森,EUR 999999.99,CORE
+part-20,invention-10,<marquee>Hacked</marquee>,<marquee>Hacked</marquee>,EUR 1000000.00,MANDATORY
+part-21,invention-11,<script>alert(‘Hacked!’);</script>,<script>alert(‘Hacked!’);</script>,EUR 500.00,OPTIONAL
+part-22,invention-11,' or 'A' = 'A,' or 'A' = 'A,EUR 0.01,CORE
+part-23,invention-12,"Vestibulum id ligula porta felis euis!","Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi. Cras justo odio, dapibus ac congue id, metus eges*",EUR 0.02,MANDATORY
+part-24,invention-12,L,L,EUR 999999.99,OPTIONAL
+part-25,invention-13,Lo,Lo,EUR 1000000.00,CORE
+part-26,invention-13,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi","Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el",EUR 500.00,MANDATORY
+part-27,invention-14,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mil","Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el*",EUR 0.01,OPTIONAL
+part-28,invention-14,โลเร็ม อิปซัม,โลเร็ม อิปซัม,EUR 0.02,CORE
+part-29,invention-15,لوريم إيبسوم,لوريم إيبسوم,EUR 999999.99,MANDATORY
+part-30,invention-15,洛伦·伊普森,洛伦·伊普森,EUR 1000000.00,OPTIONAL
+part-31,invention-16,<marquee>Hacked</marquee>,<marquee>Hacked</marquee>,EUR 500.00,CORE
+part-32,invention-16,<script>alert(‘Hacked!’);</script>,<script>alert(‘Hacked!’);</script>,EUR 0.01,MANDATORY
+part-33,invention-17,' or 'A' = 'A,' or 'A' = 'A,EUR 0.02,OPTIONAL
+part-34,invention-17,"Vestibulum id ligula porta felis euis!","Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mi. Cras justo odio, dapibus ac congue id, metus eges*",EUR 999999.99,CORE
+part-35,invention-18,L,L,EUR 1000000.00,MANDATORY
+part-36,invention-18,Lo,Lo,EUR 500.00,OPTIONAL
