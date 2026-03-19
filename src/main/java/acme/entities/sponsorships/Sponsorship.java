@@ -86,7 +86,7 @@ public class Sponsorship extends AbstractEntity {
 
 
 	@Transient
-	public double monthsActive() {
+	public double getMonthsActive() {
 		double result;
 
 		if (this.startMoment == null || this.endMoment == null)
@@ -102,7 +102,7 @@ public class Sponsorship extends AbstractEntity {
 	}
 
 	@Transient
-	public Money totalMoney() {
+	public Money getTotalMoney() {
 		Money result;
 
 		if (this.repository == null || this.getId() == 0) {

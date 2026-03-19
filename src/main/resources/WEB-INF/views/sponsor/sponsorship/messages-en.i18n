@@ -25,6 +25,7 @@ sponsor.sponsorship.form.label.more-info = More info: (Optional)
 sponsor.sponsorship.form.label.months-active = Months active:
 sponsor.sponsorship.form.label.total-money = Total money:
 
+sponsor.sponsorhip.form.button.donations = Donations
 sponsor.sponsorship.form.button.sponsor-profile = Sponsor profile
 sponsor.sponsorship.form.button.create = Create
 sponsor.sponsorship.form.button.update = Update

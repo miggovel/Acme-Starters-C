@@ -12,12 +12,15 @@
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.list-strategies = List strategies
+master.menu.anonymous.list-sponsorships = List sponsorships
 master.menu.anonymous.favourite-link = Favourite link
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.list-strategies = List strategies
+master.menu.authenticated.list-sponsorships = List sponsorships
+
 
 # master.menu.administrator ###################################################
 
@@ -42,6 +45,11 @@ master.menu.consumer.favourite-link = Favourite link
 master.menu.fundraiser = Fundraiser
 master.menu.fundraiser.list-my-strategies = List my strategies
 
+# master.menu.sponsor ######################################################
+
+master.menu.sponsor = Sponsor
+master.menu.sponsor.list-my-sponsorships = List my sponsorships
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Account
@@ -52,3 +60,5 @@ master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.consumer-profile = Consumer profile
 master.menu.user-account.become-fundraiser = Become a fundraiser
 master.menu.user-account.fundraiser-profile = Fundraiser profile
+master.menu.user-account.become-sponsor = Become a sponsor
+master.menu.user-account.sponsor-profile = Sponsor profile

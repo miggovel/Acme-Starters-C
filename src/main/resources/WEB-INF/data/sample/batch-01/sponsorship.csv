@@ -1,4 +1,4 @@
 key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:sponsor
 sponsorship-00,SP00-AAAA1,"Green Infrastructure","Funding plan for renewable infrastructure projects",2027/01/15 09:00,2027/10/15 09:00,"http://www.lorem-ipsum.org",FALSE,sponsor-01
-sponsorship-01,SP01-BBBB2,"Local Startup Boost","Programme supporting emerging technology startups",2026/01/01 00:01,2027/03/01 10:00,2028/01/01 10:00,"http://example.org",TRUE,sponsor-01
+sponsorship-01,SP01-BBBB2,"Local Startup Boost","Programme supporting emerging technology startups",2027/03/01 10:00,2028/01/01 10:00,"http://example.org",TRUE,sponsor-01
 sponsorship-02,SP02-CCCC3,"Health Innovation","Investment initiative in healthcare technology",2027/02/10 08:30,2027/11/30 18:00,"http://example.org/a",TRUE,sponsor-02
