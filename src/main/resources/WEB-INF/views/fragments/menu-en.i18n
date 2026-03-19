@@ -12,12 +12,14 @@
 
 master.menu.anonymous = Anonymous
 master.menu.anonymous.list-campaigns = List campaigns
+master.menu.anonymous.list-strategies = List strategies
 master.menu.anonymous.favourite-link = Favourite link
 
 # master.menu.authenticated ###################################################
 
 master.menu.authenticated = Authenticated
 master.menu.authenticated.list-campaigns = List campaigns
+master.menu.authenticated.list-strategies = List strategies
 
 # master.menu.administrator ###################################################
 
@@ -41,6 +43,10 @@ master.menu.consumer.favourite-link = Favourite link
 
 master.menu.spokesperson = Spokesperson
 master.menu.spokesperson.list-my-campaigns = List my campaigns
+# master.menu.fundraiser ######################################################
+
+master.menu.fundraiser = Fundraiser
+master.menu.fundraiser.list-my-strategies = List my strategies
 
 # master.menu.user-account ####################################################
 
@@ -52,3 +58,5 @@ master.menu.user-account.become-consumer = Become a consumer
 master.menu.user-account.consumer-profile = Consumer profile
 master.menu.user-account.become-spokesperson = Become a spokesperson
 master.menu.user-account.spokesperson-profile = Spokesperson profile
+master.menu.user-account.become-fundraiser = Become a fundraiser
+master.menu.user-account.fundraiser-profile = Fundraiser profile

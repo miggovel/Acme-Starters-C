@@ -1,13 +1,11 @@
-
-package acme.constraints;
+﻿package acme.constraints;
 
 import javax.validation.ConstraintValidatorContext;
-
-import org.hibernate.internal.util.StringHelper;
 
 import acme.client.components.validation.AbstractValidator;
 import acme.client.components.validation.Validator;
 import acme.client.helpers.MessageHelper;
+import acme.client.helpers.StringHelper;
 
 @Validator
 public class ValidHeaderValidator extends AbstractValidator<ValidHeader, String> {
