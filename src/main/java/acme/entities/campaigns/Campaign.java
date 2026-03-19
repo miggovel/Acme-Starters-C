@@ -85,8 +85,16 @@ public class Campaign extends AbstractEntity {
 	@Valid
 	@Transient
 	public Double getMonthsActive() {
-		long millis = this.endMoment.getTime() - this.startMoment.getTime();
-		double months = millis <= 0 ? 0.0 : millis / Campaign.MILLIS_PER_MONTH;
+		double months;
+
+		if (this.startMoment == null || this.endMoment == null)
+			months = 0.0;
+		else {
+			long millis;
+
+			millis = this.endMoment.getTime() - this.startMoment.getTime();
+			months = millis <= 0 ? 0.0 : millis / Campaign.MILLIS_PER_MONTH;
+		}
 
 		return Math.round(months * 10.0) / 10.0;
 	}
