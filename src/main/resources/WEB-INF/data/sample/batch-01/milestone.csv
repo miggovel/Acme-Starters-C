@@ -1,0 +1,45 @@
+key,title,achievements,effort,kind,key:campaign
+#base-entity
+milestone-00,"Initial Promotion","First promotional phase to introduce the campaign",10.0,TEASER,campaign-01
+#title - standard variations
+milestone-01,"Audience Engagement","Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-02,A,"First promotional phase to introduce the campaign",10.0,TEASER,campaign-01
+milestone-03,AB,"First promotional phase to introduce the campaign",10.0,TEASER,campaign-01
+milestone-04,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUV,"First promotional phase to introduce the campaign",10.0,TEASER,campaign-01
+milestone-05,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVW,"Final phase focused on achieving customer conversion",20.0,CONVERSION,campaign-01
+milestone-06,โลเร็ม อิปซัม,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-07,لوريملوريم,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-08,洛伦·伊普森,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-09,<marquee>Hacked</marquee>,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-10,<script>alert(‘Hacked!’);</script>,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+milestone-11,' or 'A' = 'A,"Activities designed to increase audience interaction",15.5,ENGAGING,campaign-01
+#title - no singular values
+#achievements - standard variations
+milestone-12,"Initial Promotion",A,10.0,TEASER,campaign-01
+milestone-13,"Initial Promotion",AB,10.0,TEASER,campaign-01
+milestone-14,"Initial Promotion",ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRST,10.0,TEASER,campaign-01
+milestone-15,"Initial Promotion",ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTU,10.0,TEASER,campaign-01
+milestone-16,"Initial Promotion",โลเร็ม อิปซัม,10.0,TEASER,campaign-01
+milestone-17,"Initial Promotion",洛伦·伊普森,10.0,TEASER,campaign-01
+milestone-18,"Initial Promotion",<marquee>Hacked</marquee>,10.0,TEASER,campaign-01
+milestone-20,"Initial Promotion",<script>alert(‘Hacked!’);</script>,10.0,TEASER,campaign-01
+milestone-21,"Initial Promotion",' or 'A' = 'A,10.0,TEASER,campaign-01
+milestone-22,"Initial Promotion",لوريملوريم,10.0,TEASER,campaign-01
+#achievements - no singular values
+#effort - standard variations
+milestone-23,"Initial Promotion","First promotional phase to introduce the campaign",0.00,TEASER,campaign-01
+milestone-24,"Initial Promotion","First promotional phase to introduce the campaign",0.01,TEASER,campaign-01
+milestone-25,"Initial Promotion","First promotional phase to introduce the campaign",999999.99,TEASER,campaign-02
+milestone-26,"Initial Promotion","First promotional phase to introduce the campaign",100000.00,TEASER,campaign-03
+#effort - no singular values
+#kind - standard variations
+milestone-27,"Initial Promotion","First promotional phase to introduce the campaign",10.0,ENGAGING,campaign-01
+milestone-28,"Initial Promotion","First promotional phase to introduce the campaign",10.0,CONVERSION,campaign-01
+#king - no singular values
+#campaign - standard variations
+milestone-29,"Initial Promotion","First promotional phase to introduce the campaign",10.0,TEASER,campaign-59
+
+
+
+
+
