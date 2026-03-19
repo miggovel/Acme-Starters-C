@@ -11,6 +11,7 @@
 
 acme.validation.campaign.duplicated-ticker.message = El ticker está duplicado
 acme.validation.campaign.interval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.campaign.timeInterval.message = El momento de fin debe ser posterior al momento de inicio
 acme.validation.campaign.publish.minimum-milestones.message = Debes definir al menos un hito antes de publicar la campaña
 acme.validation.campaign.publish.interval.message = Los momentos de inicio y fin deben definir un intervalo futuro al publicar la campaña
 
