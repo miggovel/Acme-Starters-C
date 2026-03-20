@@ -1,4 +1,3 @@
-
 package acme.features.inventor.invention;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,7 +21,7 @@ public class InventorInventionCreateService extends AbstractService<Inventor, In
 		Inventor inventor = (Inventor) super.getRequest().getPrincipal().getActiveRealm();
 
 		this.invention = super.newObject(Invention.class);
-		this.invention.setDraftMode(true); // Siempre nace como borrador
+		this.invention.setDraftMode(true);
 		this.invention.setInventor(inventor);
 	}
 
@@ -40,11 +39,7 @@ public class InventorInventionCreateService extends AbstractService<Inventor, In
 	public void validate() {
 		super.validateObject(this.invention);
 
-		Invention existing = this.repository.findOneByTicker(this.invention.getTicker());
-
-		// La condición de validez formal para creación: conjunto vacío estricto
-		boolean isUnique = existing == null;
-
+		boolean isUnique = this.isUniqueTicker(this.invention.getTicker());
 		super.state(isUnique, "ticker", "inventor.invention.form.error.duplicate-ticker");
 	}
 
@@ -57,4 +52,17 @@ public class InventorInventionCreateService extends AbstractService<Inventor, In
 	public void unbind() {
 		super.unbindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
 	}
+
+	private boolean isUniqueTicker(final String ticker) {
+		if (ticker == null || ticker.isBlank())
+			return true;
+
+		try {
+			Invention existing = this.repository.findOneByTicker(ticker);
+			return existing == null;
+		} catch (final RuntimeException ex) {
+			return false;
+		}
+	}
+
 }

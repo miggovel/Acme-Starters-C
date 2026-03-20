@@ -1,7 +1,7 @@
-any.audit-report.form.button.auditor = Ver Perfil del Auditor
+any.inventor.form.title = Perfil de inventor
 
-any.inventor.form.title = Información del Autor:
-any.inventor.form.label.name = Nombre:
-any.inventor.form.label.surname = Apellidos:
-any.inventor.form.label.email = Correo electrónico:
-any.inventor.form.label.bio = Biografía:
+any.inventor.form.label.full-name = Nombre completo:
+any.inventor.form.label.email = Correo electronico:
+any.inventor.form.label.bio = Biografia:
+any.inventor.form.label.key-words = Palabras clave:
+any.inventor.form.label.licensed = Licenciado:

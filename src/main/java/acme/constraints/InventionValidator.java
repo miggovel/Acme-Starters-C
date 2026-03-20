@@ -1,4 +1,3 @@
-
 package acme.constraints;
 
 import javax.validation.ConstraintValidatorContext;
@@ -14,7 +13,6 @@ import acme.features.inventor.invention.InventorInventionRepository;
 @Validator
 public class InventionValidator extends AbstractValidator<ValidInvention, Invention> {
 
-	// Inyección forzada de tu repositorio de actor
 	@Autowired
 	private InventorInventionRepository repository;
 
@@ -32,40 +30,38 @@ public class InventionValidator extends AbstractValidator<ValidInvention, Invent
 		if (invention == null)
 			return true;
 
-		// 1. Verificación de unicidad utilizando tu método: findOneByTicker
 		{
-			boolean uniqueInvention;
-			Invention existingInvention;
-
-			existingInvention = this.repository.findOneByTicker(invention.getTicker());
-			uniqueInvention = existingInvention == null || existingInvention.equals(invention);
-
+			boolean uniqueInvention = this.isUniqueTicker(invention);
 			super.state(context, uniqueInvention, "ticker", "acme.validation.invention.duplicated-ticker.message");
 		}
 
-		// 2. Verificaciones para inventos publicados
 		if (Boolean.FALSE.equals(invention.getDraftMode())) {
-
-			// Verificación de cardinalidad utilizando tu método: countPartsByInventionId
 			{
-				boolean hasInventionAtLeastOnePart;
-
-				hasInventionAtLeastOnePart = this.repository.countPartsByInventionId(invention.getId()) >= 1;
-
+				boolean hasInventionAtLeastOnePart = this.repository.countPartsByInventionId(invention.getId()) >= 1;
 				super.state(context, hasInventionAtLeastOnePart, "*", "acme.validation.invention.parts.message");
 			}
 
-			// Verificación temporal de fechas
 			{
-				boolean startMomentIsPreviousToEndMoment;
-
-				startMomentIsPreviousToEndMoment = MomentHelper.isBefore(invention.getStartMoment(), invention.getEndMoment());
-
+				boolean startMomentIsPreviousToEndMoment = MomentHelper.isBefore(invention.getStartMoment(), invention.getEndMoment());
 				super.state(context, startMomentIsPreviousToEndMoment, "startMoment", "acme.validation.invention.invalidMomentInterval.message");
 			}
+
 			isValid = !super.hasErrors(context);
 		}
 
 		return isValid;
 	}
+
+	private boolean isUniqueTicker(final Invention invention) {
+		if (invention.getTicker() == null || invention.getTicker().isBlank())
+			return true;
+
+		try {
+			Invention existing = this.repository.findOneByTicker(invention.getTicker());
+			return existing == null || existing.equals(invention);
+		} catch (final RuntimeException ex) {
+			return false;
+		}
+	}
+
 }

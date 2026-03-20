@@ -3,8 +3,9 @@
 <%@taglib prefix="acme" uri="http://acme-framework.org/"%>
 
 <acme:form> 
-	<acme:form-textbox code="any.inventor.form.label.name" path="identity.name"/>
-	<acme:form-textbox code="any.inventor.form.label.surname" path="identity.surname"/>
-	<acme:form-textbox code="any.inventor.form.label.email" path="identity.email"/>
-	<acme:form-textbox code="any.inventor.form.label.bio" path="bio"/>
+	<acme:form-textbox code="any.inventor.form.label.full-name" path="identity.fullName" readonly="true"/>
+	<acme:form-textbox code="any.inventor.form.label.email" path="identity.email" readonly="true"/>
+	<acme:form-textarea code="any.inventor.form.label.bio" path="bio" readonly="true"/>
+	<acme:form-textbox code="any.inventor.form.label.key-words" path="keyWords" readonly="true"/>
+	<acme:form-checkbox code="any.inventor.form.label.licensed" path="licensed" readonly="true"/>
 </acme:form>

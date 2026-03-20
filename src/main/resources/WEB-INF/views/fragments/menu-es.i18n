@@ -50,6 +50,11 @@ master.menu.spokesperson.list-my-campaigns = Ver mis campañas
 master.menu.fundraiser = Recaudador
 master.menu.fundraiser.list-my-strategies = Ver mis estrategias
 
+# master.menu.inventor ######################################################
+
+master.menu.inventor = Inventor
+master.menu.inventor.list-inventions = Mis inventos
+
 # master.menu.user-account ####################################################
 
 master.menu.user-account = Cuenta
@@ -62,3 +67,5 @@ master.menu.user-account.become-spokesperson = Hazte portavoz
 master.menu.user-account.spokesperson-profile = Perfil de portavoz
 master.menu.user-account.become-fundraiser = Hazte recaudador
 master.menu.user-account.fundraiser-profile = Perfil de recaudador
+master.menu.user-account.become-inventor = Hazte inventor
+master.menu.user-account.inventor-profile = Perfil de inventor

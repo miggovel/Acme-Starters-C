@@ -20,3 +20,6 @@ acme.validation.strategy.interval.message = End moment must be after start momen
 acme.validation.strategy.publish.minimum-tactics.message = You must define at least one tactic before publishing
 acme.validation.strategy.publish.expected-percentage.message = The total expected percentage must be between 0 and 100
 acme.validation.strategy.publish.interval.message = Start and end moments must define a future interval when publishing
+acme.validation.invention.duplicated-ticker.message = The ticker is duplicated
+acme.validation.invention.invalidMomentInterval.message = End moment must be after start moment
+acme.validation.invention.parts.message = At least one part is required

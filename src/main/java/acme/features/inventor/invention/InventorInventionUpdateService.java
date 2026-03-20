@@ -1,4 +1,3 @@
-
 package acme.features.inventor.invention;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,13 +21,11 @@ public class InventorInventionUpdateService extends AbstractService<Inventor, In
 		int id = super.getRequest().getData("id", int.class);
 		int inventorId = super.getRequest().getPrincipal().getActiveRealm().getId();
 
-		// Hecho: Se exige una consulta segura que garantice la propiedad del registro.
 		this.invention = this.repository.findOneByIdAndInventorId(id, inventorId);
 	}
 
 	@Override
 	public void authorise() {
-		// Se autoriza estrictamente si el invento existe y permanece en modo borrador.
 		boolean status = this.invention != null && this.invention.getDraftMode();
 		super.setAuthorised(status);
 	}
@@ -42,11 +39,7 @@ public class InventorInventionUpdateService extends AbstractService<Inventor, In
 	public void validate() {
 		super.validateObject(this.invention);
 
-		Invention existing = this.repository.findOneByTicker(this.invention.getTicker());
-
-		// La condición de validez formal: nulo o idéntico identificador
-		boolean isUnique = existing == null || existing.getId() == this.invention.getId();
-
+		boolean isUnique = this.isUniqueTicker(this.invention.getTicker(), this.invention.getId());
 		super.state(isUnique, "ticker", "inventor.invention.form.error.duplicate-ticker");
 	}
 
@@ -59,4 +52,17 @@ public class InventorInventionUpdateService extends AbstractService<Inventor, In
 	public void unbind() {
 		super.unbindObject(this.invention, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode");
 	}
+
+	private boolean isUniqueTicker(final String ticker, final int currentId) {
+		if (ticker == null || ticker.isBlank())
+			return true;
+
+		try {
+			Invention existing = this.repository.findOneByTicker(ticker);
+			return existing == null || existing.getId() == currentId;
+		} catch (final RuntimeException ex) {
+			return false;
+		}
+	}
+
 }

@@ -18,3 +18,15 @@
 		</jstl:when>		
 	</jstl:choose>		
 </acme:form>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		const kind = $("#kind");
+		const proxy = $("select[name='kind$proxy']");
+
+		if (kind.length && proxy.length && !kind.val()) {
+			kind.attr("value", proxy.val());
+			kind.attr("data-label", proxy.find(":selected").text().trim());
+		}
+	});
+</script>

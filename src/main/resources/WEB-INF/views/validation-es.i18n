@@ -21,3 +21,6 @@ acme.validation.strategy.interval.message = El momento final debe ser posterior 
 acme.validation.strategy.publish.minimum-tactics.message = Debe existir al menos una tactica antes de publicar
 acme.validation.strategy.publish.expected-percentage.message = El porcentaje esperado total debe estar entre 0 y 100
 acme.validation.strategy.publish.interval.message = Los momentos inicial y final deben definir un intervalo futuro al publicar
+acme.validation.invention.duplicated-ticker.message = El ticker esta duplicado
+acme.validation.invention.invalidMomentInterval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.invention.parts.message = Se requiere al menos una pieza

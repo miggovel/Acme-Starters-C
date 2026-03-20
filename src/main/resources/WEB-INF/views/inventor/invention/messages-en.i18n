@@ -54,6 +54,7 @@ typeMismatch.java.util.Date = Invalid date format. The entered value is not vali
 inventor.invention.form.error.duplicate-ticker = That ticker already exists, please try another one.
 inventor.invention.form.error.no-parts = Cannot be published unless they have at least one part
 
+inventor.invention.form.error.invalid-interval = End moment must be after start moment.
 
 inventor.invention.form.error.start-moment-future = The start moment must be a future date.
 inventor.invention.form.error.end-moment-future = The end moment must be a future date.

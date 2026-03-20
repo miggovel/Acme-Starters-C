@@ -43,8 +43,8 @@ master.menu.consumer.favourite-link = Favourite link
 
 # master.menu.inventor ##########################################################
 
- master.menu.inventor = Inventor
- master.menu.inventor.inventions = Inventions
+master.menu.inventor = Inventor
+master.menu.inventor.list-inventions = My inventions
  
 # master.menu.spokesperson ######################################################
 
@@ -69,11 +69,3 @@ master.menu.user-account.become-fundraiser = Become a fundraiser
 master.menu.user-account.fundraiser-profile = Fundraiser profile
 master.menu.user-account.become-inventor = Become an inventor
 master.menu.user-account.inventor-profile = Inventor profile
-
-master.menu.user-account.become-inventor = Convertirse en inventor
-master.menu.user-account.inventor-profile = Perfil de inventor
-
-# master.menu.inventor ##########################################################
-
- master.menu.inventor = Inventor
- master.menu.inventor.inventions = Invenciones

@@ -49,6 +49,7 @@ acme.validation.text.message = El formato del texto es inválido o contiene cara
 typeMismatch.java.util.Date = Formato de fecha incorrecto. El valor introducido no es válido.
 inventor.invention.form.error.no-parts = No se puede publicar si no tiene al menos una pieza asociada.
 
+inventor.invention.form.error.invalid-interval = El momento de fin debe ser posterior al momento de inicio.
 
 inventor.invention.form.error.start-moment-future = La fecha de inicio debe ser una fecha en el futuro.
 inventor.invention.form.error.end-moment-future = La fecha de fin debe ser una fecha en el futuro.

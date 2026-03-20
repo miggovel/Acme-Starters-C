@@ -29,6 +29,7 @@ public class InventorPartCreateService extends AbstractService<Inventor, Part> {
 
 		this.part = super.newObject(Part.class);
 		this.part.setInvention(invention);
+		this.part.setKind(PartKind.CORE);
 	}
 
 	@Override

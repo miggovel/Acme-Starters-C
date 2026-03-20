@@ -50,7 +50,6 @@ public class AnyInventorShowService extends AbstractService<Any, Inventor> {
 
 	@Override
 	public void unbind() {
-		// Desvinculamos los datos de la cuenta de usuario y la firma
-		super.unbindObject(this.inventor, "bio", "identity.name", "identity.surname", "identity.email");
+		super.unbindObject(this.inventor, "identity.fullName", "identity.email", "bio", "keyWords", "licensed");
 	}
 }
