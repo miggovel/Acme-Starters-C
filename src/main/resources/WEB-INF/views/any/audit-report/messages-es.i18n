@@ -1,0 +1,16 @@
+any.audit-report.list.title=Informes de auditoría publicados
+any.audit-report.form.title=Informes de auditoría publicados
+
+
+any.audit-report.form.ticker = Ticker
+any.audit-report.form.name = Nombre
+any.audit-report.form.description = Descripción
+any.audit-report.form.moreInfo = Más información
+any.audit-report.form.startMoment = Fecha de inicio
+any.audit-report.form.endMoment = Fecha de fin
+
+any.audit-report.form.auditorFirm = Empresa auditora
+any.audit-report.form.auditorHighlights = Destacados
+any.audit-report.form.auditorSolicitor = Solicitante
+
+any.audit-report.form.button.sections = Secciones de auditoría

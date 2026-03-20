@@ -1,0 +1,8 @@
+key,name,notes,hours,kind,published,key:auditReport
+audit-section-01,"Preliminary Review","Initial assessment of the scope, objectives and methodology of the audit.",8,PRELIMINARY,TRUE,audit-report-01
+audit-section-02,"Control Evaluation","Detailed evaluation of internal controls and risk management procedures.",16,EVALUATION,TRUE,audit-report-01
+audit-section-03,"Final Conclusions","Summary of findings and recommendations for improvement.",4,CONCLUSION,TRUE,audit-report-01
+audit-section-04,"IT Infrastructure Review","Preliminary analysis of servers, network topology and access controls.",6,PRELIMINARY,FALSE,audit-report-02
+audit-section-05,"Procurement Preliminary","Review of procurement documentation and supplier selection criteria.",10,PRELIMINARY,TRUE,audit-report-03
+audit-section-06,"Compliance Evaluation","Assessment of adherence to applicable public sector regulations.",20,EVALUATION,TRUE,audit-report-03
+audit-section-07,"Audit Conclusions","Key findings and corrective action recommendations for the entity.",5,CONCLUSION,TRUE,audit-report-03

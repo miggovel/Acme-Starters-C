@@ -1,0 +1,16 @@
+any.audit-report.list.title=Published Audit Reports
+any.audit-report.form.title=Published Audit Reports
+
+
+any.audit-report.form.ticker = Ticker
+any.audit-report.form.name = Name
+any.audit-report.form.description = Description
+any.audit-report.form.moreInfo = More info
+any.audit-report.form.startMoment = Start moment
+any.audit-report.form.endMoment = End moment
+
+any.audit-report.form.auditorFirm = Auditor firm
+any.audit-report.form.auditorHighlights = Highlights
+any.audit-report.form.auditorSolicitor = Solicitor
+
+any.audit-report.form.button.sections = Audit sections

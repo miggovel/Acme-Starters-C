@@ -1,0 +1,17 @@
+auditor.audit-section.list.title=Secciones de auditoría
+
+auditor.audit-section.form.name=Nombre
+auditor.audit-section.form.notes=Notas
+auditor.audit-section.form.hours=Horas
+auditor.audit-section.form.kind=Tipo
+auditor.audit-section.form.published=Publicado
+
+# ENUM
+audit-section.kind.PRELIMINARY=Preliminar
+audit-section.kind.EVALUATION=Evaluacion
+audit-section.kind.CONCLUSION=Conclusion
+
+# botones
+auditor.audit-section.form.button.create=Crear
+auditor.audit-section.form.button.update=Actualizar
+auditor.audit-section.form.button.delete=Eliminar

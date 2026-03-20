@@ -1,0 +1,24 @@
+key,name,notes,hours,kind,published,key:auditReport
+#base-entity
+audit-section-00,"Support Section","Valid section used as control data for audit section errata.",10,PRELIMINARY,FALSE,audit-report-00
+#name - standard variations
+audit-section-01,,"Valid notes for audit section errata.",10,PRELIMINARY,FALSE,audit-report-00
+audit-section-02,"   ","Valid notes for audit section errata.",10,PRELIMINARY,FALSE,audit-report-00
+audit-section-03,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","Valid notes for audit section errata.",10,PRELIMINARY,FALSE,audit-report-00
+#name - no singular values
+#notes - standard variations
+audit-section-04,"Valid Section",,10,PRELIMINARY,FALSE,audit-report-00
+audit-section-05,"Valid Section","   ",10,PRELIMINARY,FALSE,audit-report-00
+audit-section-06,"Valid Section","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",10,PRELIMINARY,FALSE,audit-report-00
+#notes - no singular values
+#hours - standard variations
+audit-section-07,"Valid Section","Valid notes for audit section errata.",0,PRELIMINARY,FALSE,audit-report-00
+audit-section-08,"Valid Section","Valid notes for audit section errata.",-1,PRELIMINARY,FALSE,audit-report-00
+audit-section-09,"Valid Section","Valid notes for audit section errata.",,PRELIMINARY,FALSE,audit-report-00
+#hours - no singular values
+#kind - standard variations
+audit-section-10,"Valid Section","Valid notes for audit section errata.",10,,FALSE,audit-report-00
+#kind - no singular values
+#auditReport - standard variations
+audit-section-11,"Valid Section","Valid notes for audit section errata.",10,PRELIMINARY,FALSE,
+#auditReport - no singular values
