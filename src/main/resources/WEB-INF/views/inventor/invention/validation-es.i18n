@@ -1,0 +1,30 @@
+master.menu.inventor = Inventor
+master.menu.inventor.list-inventions = Mis Inventos
+
+
+########list
+inventor.invention.list.title = Lista de mis Inventos
+
+inventor.invention.list.label.ticker = Código
+inventor.invention.list.label.name = Nombre
+inventor.invention.list.label.startMoment = Fecha inicio
+inventor.invention.list.label.endMoment = Fecha fin
+
+
+incentor.invention.list.button.create = Crear
+
+
+############form
+inventor.invention.form.title = Detalles del Invento
+
+inventor.invention.form.label.ticker = Código:
+inventor.invention.form.label.name = Nombre:
+inventor.invention.form.label.description = Descripción:
+inventor.invention.form.label.startMoment = Fecha inicio:
+inventor.invention.form.label.endMoment = Fecha fin:
+inventor.invention.form.label.moreInfo = Más información (URL):
+inventor.invention.form.label.draftMode = Modo borrador:
+inventor.invention.form.label.cost = Coste total:
+inventor.invention.form.label.monthsActive = Meses activo:
+
+inventor.invention.form.button.create = Crear

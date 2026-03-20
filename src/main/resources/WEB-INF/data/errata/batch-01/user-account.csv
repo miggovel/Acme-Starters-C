@@ -9,4 +9,5 @@ user-account-spokesperson-01,true,"UserIdentity{name: '', surname: 'Provider', e
 user-account-spokesperson-02,true,"UserIdentity{name: '', surname: 'è²¸ã‚“ã„å»ºæ¿¯ã‚ˆèŠå¼¾ãƒ†ã‚½ Î›Î¿ÏÎµÎ¼ Î¹Ï€ÏƒÎ¸Î¼', email: 'mary@acme.com'}",spokesperson2,spokesperson2
 user-account-spokesperson-03,true,"UserIdentity{name: '', surname: '××‘×˜×™×— Ã†lÃ¸zÃ¥', email: 'antonia@acme.com'}",spokesperson3,spokesperson3
 user-account-fundraiser-errata-01,true,"UserIdentity{name: 'Erika', surname: 'Fundraiser', email: 'fundraiser.errata1@acme.com'}",fundraiserErrata1,fundraiserErrata1
-user-account-auditor-errata-01,true,"UserIdentity{name: 'Errata', surname: 'Auditor', email: 'auditor.errata1@acme.com'}",auditorErrata1,auditorErrata1
+
+

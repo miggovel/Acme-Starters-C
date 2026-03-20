@@ -1,0 +1,27 @@
+inventor.part.list.title = Parts Inventory Catalog
+inventor.part.form.title = Part Information
+
+inventor.part.list.label.name = Denomination
+inventor.part.list.label.cost = Value
+inventor.part.list.label.kind = Category
+
+inventor.part.form.label.name = Denomination:
+inventor.part.form.label.description = Short Description:
+inventor.part.form.label.cost = Value:
+inventor.part.form.label.kind = Category:
+
+PartKind.CORE = Core
+PartKind.MANDATORY = Mandatory
+PartKind.OPTIONAL = Optional
+
+
+
+
+######botones
+inventor.part.list.button.create = Create
+inventor.part.form.button.create = Create
+inventor.part.form.button.update = Update
+inventor.part.form.button.delete = Delete
+
+
+inventor.part.form.error.invalid-currency = The currency must be EUR

@@ -1,0 +1,63 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+master.menu.inventor = Inventor
+master.menu.inventor.list-inventions = My Inventions
+
+
+##########list
+inventor.invention.list.title = My Authored Inventions
+
+inventor.invention.list.label.ticker = Code ID
+inventor.invention.list.label.name = Title
+inventor.invention.list.label.startMoment = Begins On
+inventor.invention.list.label.endMoment = Ends On
+inventor.invention.list.label.cost = Cost
+inventor.invention.list.label.draftMode = DraftMode
+
+inventor.invention.list.button.create = Create
+
+
+
+############form
+inventor.invention.form.title = Invention's Data
+
+inventor.invention.form.label.ticker = Code ID:
+inventor.invention.form.label.name = Title:
+inventor.invention.form.label.description = Summary:
+inventor.invention.form.label.startMoment = Begins On:
+inventor.invention.form.label.endMoment = Ends On:
+inventor.invention.form.label.moreInfo = More Info (URL):
+inventor.invention.form.label.draftMode = Draft Mode:
+inventor.invention.form.label.cost = Total Cost:
+inventor.invention.form.label.monthsActive = Months Active:
+
+inventor.invention.form.button.part = Parts
+inventor.invention.form.button.create = Create
+inventor.invention.form.button.update = Update
+inventor.invention.form.button.delete = Delete
+inventor.invention.form.button.publish = Publish
+
+################## mensajes
+acme.validation.text.message = The text format is invalid or contains forbidden characters.
+typeMismatch.java.util.Date = Invalid date format. The entered value is not valid.
+
+
+############# error
+inventor.invention.form.error.duplicate-ticker = That ticker already exists, please try another one.
+inventor.invention.form.error.no-parts = Cannot be published unless they have at least one part
+
+inventor.invention.form.error.invalid-interval = End moment must be after start moment.
+
+inventor.invention.form.error.start-moment-future = The start moment must be a future date.
+inventor.invention.form.error.end-moment-future = The end moment must be a future date.
+
+
+

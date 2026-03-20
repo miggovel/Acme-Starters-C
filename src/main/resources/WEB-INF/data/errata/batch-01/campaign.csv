@@ -1,0 +1,75 @@
+key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:spokesperson
+#ticker - standard variations ,,,,,,,,,,,,,,,
+campaign-01,,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-02,A123-ABCDE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-03,ABC3-ABCDE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-04,ABCD-ABCDE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-05,AB12ABCDE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-06,AB12-ABCD,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-07,AB12-ABCDEFGHIJK,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-08,AB12-ABC DE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-09,AB12-ABC@DE,"Lorem ipsum dolor sit amet, consectetur adipiscing","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+#ticker - no singular values,,,,,,,,,,,,,,,,,,
+#name - standard variations ,,,,,,,,,,,,,,,,,,
+campaign-10,ER10-ERR001,,"Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-11,ER11-ERR002,"    ","Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-12,ER12-ERR003,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX,"Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-13,ER13-ERR004,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ,"Lorem ipsum dolor sit amet, consectetur adipiscing",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+#name - no singular values ,,,,,,,,,,,,,,,,,,,
+#description - standard variations,,,,,,,,,,,,,
+campaign-14,ER14-ERR005,A,,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-15,ER15-ERR006,A,"   ",2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-16,ER16-ERR007,A,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWX,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-17,ER17-ERR008,A,ABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-18,ER18-ERR009,A,,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+#description - no singular values,,,,,,,,,,,,,,,
+#startMoment - standard variations,,,,,,,,,,,,,,
+campaign-19,ER19-ERR010,A,AA,2024/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-20,ER20-ERR011,A,AA,1900/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-21,ER21-ERR012,A,AA,2500/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+#startMoment - no singular values,,,,,,,,,,,,,,,
+#endMoment - standard variations,,,,,,,,,,,,,,,,
+campaign-23,ER23-ERR013,A,AA,2026/09/02 09:00,2025/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-24,ER24-ERR014,A,AA,2026/09/02 09:00,1900/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+campaign-25,ER25-ERR015,A,AA,2026/09/02 09:00,2500/09/02 09:00,http://lorem.com/ipsum,TRUE,spokesperson-01
+#endMoment - no singular values,,,,,,,,,,,,,,,,,
+#moreInfo - standard variations,,,,,,,,,,,,,,,,,
+campaign-27,ER27-ERR016,A,AA,2026/09/02 09:00,2027/09/02 09:00,hola,TRUE,spokesperson-01
+campaign-28,ER28-ERR017,A,AA,2026/09/02 09:00,2027/09/02 09:00,http//example.com,TRUE,spokesperson-01
+campaign-29,ER29-ERR018,A,AA,2026/09/02 09:00,2027/09/02 09:00,http:/example.com,TRUE,spokesperson-01
+campaign-30,ER30-ERR019,A,AA,2026/09/02 09:00,2027/09/02 09:00,mailto:test@test.com,TRUE,spokesperson-01
+campaign-31,ER31-ERR020,A,AA,2026/09/02 09:00,2027/09/02 09:00,https://example.com/aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa,TRUE,spokesperson-01
+campaign-32,ER32-ERR021,A,AA,2026/09/02 09:00,2027/09/02 09:00,http://localhost,TRUE,spokesperson-01
+#moreInfo - no singular values,,,,,,,,,,,,,,,,,,
+#draftMode - standard variations,,,,,,,,,,,,,,,,
+campaign-33,ER33-ERR022,A,AA,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,FALSE,spokesperson-01
+#draftMode - no singular values,,,,,,,,,,,,,,,,,
+#spokesperson - standard variations,,,,,,,,,,,,,
+campaign-36,ER36-ERR023,A,AA,2026/09/02 09:00,2027/09/02 09:00,http://lorem.com/ipsum,TRUE,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

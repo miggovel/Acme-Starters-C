@@ -1,0 +1,33 @@
+key,title,achievements,effort,kind,key:campaign
+#base entity,,,,,,,,,,,,,,,,,,
+milestone-00,,,0.0,TEASER,campaign-01
+#title - standard variation,,,,,,,,,,,,,,,,,,,,,,,,
+milestone-01,L,"Achievements sample text",0.0,TEASER,campaign-01
+milestone-02,Lo,"Achievements sample text",0.0,TEASER,campaign-01
+milestone-03,"Este es un string de ejemplo que tiene exactamente setenta y siete caracteres!!","Achievements sample text",0.0,TEASER,campaign-01
+milestone-04,"Este es otro string de ejemplo mucho más largo que supera los cien caracteres sin problema y sirve para pruebas de longitud.","Achievements sample text",0.0,TEASER,campaign-01
+milestone-05,,"Achievements sample text",0.0,TEASER,campaign-01
+
+#title - no singular values,,,,,,,,,,,,,,,,,,
+#achievements - standard variations,,,,,,,,,,,,,,,,
+milestone-06,Lo,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",0.0,TEASER,campaign-01
+milestone-07,Lo,"aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",0.0,TEASER,campaign-01
+milestone-08,Lo,"",0.0,TEASER,campaign-01
+#achievements - no singular values,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#effort - standard variations,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milestone-09,Lo,"Achievements sample text",0,TEASER,campaign-01
+milestone-10,Lo,"Achievements sample text",1000000000000000.0,TEASER,campaign-01
+milestone-11,Lo,"Achievements sample text",10000000.0,TEASER,campaign-01
+milestone-12,Lo,"Achievements sample text",10.00099999,TEASER,campaign-01
+#effort - no singular values,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+#kind - standard varation,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
+milestone-13,Lo,"Achievements sample text",0.0,,campaign-01
+#kind - no singular values
+milestone-15,Lo,"Achievements sample text",0.0,TEASER,
+
+
+
+
+
+
+

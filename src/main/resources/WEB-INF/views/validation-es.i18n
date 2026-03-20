@@ -1,4 +1,4 @@
-﻿# validation-es.i18n
+# validation-es.i18n
 #
 # Copyright (C) 2012-2026 Rafael Corchuelo.
 #
@@ -8,8 +8,19 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
+
+acme.validation.campaign.duplicated-ticker.message = El ticker está duplicado
+acme.validation.campaign.interval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.campaign.timeInterval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.campaign.publish.minimum-milestones.message = Debes definir al menos un hito antes de publicar la campaña
+acme.validation.campaign.publish.interval.message = Los momentos de inicio y fin deben definir un intervalo futuro al publicar la campaña
+
+
 acme.validation.strategy.duplicated-ticker.message = La referencia ya existe
 acme.validation.strategy.interval.message = El momento final debe ser posterior al inicial
 acme.validation.strategy.publish.minimum-tactics.message = Debe existir al menos una tactica antes de publicar
 acme.validation.strategy.publish.expected-percentage.message = El porcentaje esperado total debe estar entre 0 y 100
 acme.validation.strategy.publish.interval.message = Los momentos inicial y final deben definir un intervalo futuro al publicar
+acme.validation.invention.duplicated-ticker.message = El ticker esta duplicado
+acme.validation.invention.invalidMomentInterval.message = El momento de fin debe ser posterior al momento de inicio
+acme.validation.invention.parts.message = Se requiere al menos una pieza

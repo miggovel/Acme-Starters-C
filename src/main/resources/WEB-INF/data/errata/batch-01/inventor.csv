@@ -1,0 +1,5 @@
+key,key:userAccount,bio,keyWords,licensed
+inventor-01,user-account-inventor-01,"",L,TRUE
+inventor-02,user-account-inventor-02,Lo,"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el",FALSE
+inventor-03,user-account-inventor-03,"Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Aenean lacinia bibendum nulla sed consectetur. Donec sed odio dui el*","",TRUE
+inventor-04,user-account-inventor-03,Lo,"Nullam quis risus eget urna mollis ornare vel eu leo. Donec id elit non mile",TRUE

@@ -1,0 +1,34 @@
+# messages-en.i18n
+#
+# Copyright (C) 2012-2026 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+any.invention.form.title = General Information of the Invention
+any.invention.list.title = Public Inventions Catalog
+
+any.invention.list.label.ticker = Reference Code
+any.invention.list.label.name = Name
+any.invention.list.label.startMoment = Begins On
+any.invention.list.label.endMoment = Ends On
+any.invention.list.label.auditor = Auditing Company
+any.invention.list.label.cost = Total Cost
+
+any.invention.form.label.ticker = Reference Code:
+any.invention.form.label.name = Name:
+any.invention.form.label.startMoment = Begins On:
+any.invention.form.label.endMoment = Ends On:
+any.invention.form.label.monthsActive = Months Active:
+any.invention.form.label.cost = Total Cost:
+any.invention.form.label.moreInfo = Additional Info (URL):
+any.invention.form.label.description = General Description:
+
+any.invention.form.button.parts = Parts
+any.invention.form.button.inventor = Autor's profile
+
+
+any.invention.list.title= Public Inventions Catalog
