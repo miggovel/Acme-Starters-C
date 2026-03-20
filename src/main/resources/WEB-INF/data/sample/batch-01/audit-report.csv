@@ -1,0 +1,4 @@
+key,ticker,name,description,start-moment,end-moment,more-info,published,key:auditor
+audit-report-01,AU01-ALPHA1,"Financial Audit 2027","Comprehensive review of financial statements and internal controls for fiscal year 2027.",2027/01/10 09:00,2027/06/10 18:00,http://example.org/reports/au01-alpha1,TRUE,auditor-01
+audit-report-02,AU01-BETA22,"IT Systems Audit","Draft audit report assessing cybersecurity controls and IT infrastructure compliance.",2027/03/01 09:00,2027/09/01 18:00,http://example.org/reports/au01-beta22,FALSE,auditor-01
+audit-report-03,AU02-OMEGA3,"Public Sector Compliance","Audit of procurement procedures and regulatory compliance in public sector entities.",2027/02/15 09:00,2027/07/15 18:00,http://example.org/reports/au02-omega3,TRUE,auditor-02

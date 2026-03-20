@@ -1,0 +1,17 @@
+auditor.audit-section.list.title=Audit Sections
+
+auditor.audit-section.form.name=Name
+auditor.audit-section.form.notes=Notes
+auditor.audit-section.form.hours=Hours
+auditor.audit-section.form.kind=Kind
+auditor.audit-section.form.published=Published
+
+# ENUM 
+audit-section.kind.PRELIMINARY=Preliminary
+audit-section.kind.EVALUATION=Evaluation
+audit-section.kind.CONCLUSION=Conclusion
+
+# botones
+auditor.audit-section.form.button.create=Create
+auditor.audit-section.form.button.update=Update
+auditor.audit-section.form.button.delete=Delete

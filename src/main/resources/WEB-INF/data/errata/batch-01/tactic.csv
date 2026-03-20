@@ -1,0 +1,24 @@
+key,name,notes,expected-percentage,kind,key:strategy
+#base-entity
+tactic-00,"Support Tactic","Valid tactic used as control data for tactic errata.",10.00,SUBTLE,strategy-00
+#name - standard variations
+tactic-01,,"Valid note for tactic errata.",10.00,SUBTLE,strategy-00
+tactic-02,"   ","Valid note for tactic errata.",10.00,SUBTLE,strategy-00
+tactic-03,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","Valid note for tactic errata.",10.00,SUBTLE,strategy-00
+#name - no singular values
+#notes - standard variations
+tactic-04,"Valid Tactic",,10.00,SUBTLE,strategy-00
+tactic-05,"Valid Tactic","   ",10.00,SUBTLE,strategy-00
+tactic-06,"Valid Tactic","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",10.00,SUBTLE,strategy-00
+#notes - no singular values
+#expectedPercentage - standard variations
+tactic-07,"Valid Tactic","Valid note for tactic errata.",-0.01,SUBTLE,strategy-00
+tactic-08,"Valid Tactic","Valid note for tactic errata.",100.01,SUBTLE,strategy-00
+tactic-09,"Valid Tactic","Valid note for tactic errata.",10.001,SUBTLE,strategy-00
+#expectedPercentage - no singular values
+#kind - standard variations
+tactic-10,"Valid Tactic","Valid note for tactic errata.",10.00,,strategy-00
+#kind - no singular values
+#strategy - standard variations
+tactic-11,"Valid Tactic","Valid note for tactic errata.",10.00,SUBTLE,
+#strategy - no singular values

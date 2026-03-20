@@ -1,0 +1,20 @@
+auditor.audit-report.list.title=Informes de auditoría
+auditor.audit-report.form.title = Informe de auditoría
+
+auditor.audit-report.form.ticker = Ticker
+auditor.audit-report.form.name = Nombre
+auditor.audit-report.form.description = Descripción
+auditor.audit-report.form.moreInfo = Más información
+auditor.audit-report.form.startMoment = Fecha de inicio
+auditor.audit-report.form.endMoment = Fecha de fin
+auditor.audit-report.form.published = Publicado
+
+auditor.audit-report.form.button.sections = Secciones de auditoría
+auditor.audit-report.form.button.create = Crear
+auditor.audit-report.form.button.update = Actualizar
+auditor.audit-report.form.button.delete = Eliminar
+auditor.audit-report.form.button.publish = Publicar
+
+auditor.audit-report.error.no-sections = El informe debe tener al menos una sección antes de publicarse.
+auditor.audit-report.error.duplicated = El ticker ya está en uso.
+auditor.audit-report.error.invalid-moment = La fecha de fin debe ser posterior a la de inicio.

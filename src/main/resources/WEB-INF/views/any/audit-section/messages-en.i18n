@@ -1,0 +1,10 @@
+any.audit-section.list.title=Audit Sections
+
+any.audit-section.form.name=Name
+any.audit-section.form.notes = Notes
+any.audit-section.form.kind=Kind
+any.audit-section.form.hours=Hours
+
+audit-section.kind.PRELIMINARY = Preliminary
+audit-section.kind.EVALUATION = Evaluation
+audit-section.kind.CONCLUSION = Conclusion

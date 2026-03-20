@@ -1,0 +1,40 @@
+key,ticker,name,description,start-moment,end-moment,more-info,published,key:auditor
+#base-entity
+audit-report-00,ER00-BASE1,"Support Report","Valid draft report used as support data for audit section errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/support,FALSE,auditor-errata-01
+#ticker - standard variations
+audit-report-01,,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-empty,FALSE,auditor-errata-01
+audit-report-02,A123-ABCDE,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-a123,FALSE,auditor-errata-01
+audit-report-03,ABC3-ABCDE,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-abc3,FALSE,auditor-errata-01
+audit-report-04,ABCD-ABCDE,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-abcd,FALSE,auditor-errata-01
+audit-report-05,AB12ABCDE,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-nohyphen,FALSE,auditor-errata-01
+audit-report-06,AB12-ABCD,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-short,FALSE,auditor-errata-01
+audit-report-07,AB12-ABCDEFGHIJK,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/ticker-long,FALSE,auditor-errata-01
+#ticker - no singular values
+#name - standard variations
+audit-report-08,ER08-AUDIT01,,"Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/name-empty,FALSE,auditor-errata-01
+audit-report-09,ER09-AUDIT02,"   ","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/name-blank,FALSE,auditor-errata-01
+audit-report-10,ER10-AUDIT03,"NNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNNN","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/name-long,FALSE,auditor-errata-01
+#name - no singular values
+#description - standard variations
+audit-report-11,ER11-AUDIT04,"Valid Report",,2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/description-empty,FALSE,auditor-errata-01
+audit-report-12,ER12-AUDIT05,"Valid Report","   ",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/description-blank,FALSE,auditor-errata-01
+audit-report-13,ER13-AUDIT06,"Valid Report","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/description-long,FALSE,auditor-errata-01
+#description - no singular values
+#startMoment - standard variations
+audit-report-14,ER14-AUDIT07,"Valid Report","Valid description for audit report errata.",2025/01/15 09:00,2027/10/15 09:00,http://example.org/reports/start-past,FALSE,auditor-errata-01
+#startMoment - no singular values
+#endMoment - standard variations
+audit-report-15,ER15-AUDIT08,"Valid Report","Valid description for audit report errata.",2027/10/15 09:00,2027/01/15 09:00,http://example.org/reports/end-before,FALSE,auditor-errata-01
+audit-report-16,ER16-AUDIT09,"Valid Report","Valid description for audit report errata.",2025/10/15 09:00,2025/01/15 09:00,http://example.org/reports/end-past,FALSE,auditor-errata-01
+#endMoment - no singular values
+#moreInfo - standard variations
+audit-report-17,ER17-AUDIT10,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,not-a-url,FALSE,auditor-errata-01
+#moreInfo - no singular values
+#published - no singular values
+#auditor - standard variations
+audit-report-19,ER19-AUDIT12,"Valid Report","Valid description for audit report errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/auditor-missing,FALSE,
+#auditor - no singular values
+#business-rules - standard variations
+audit-report-20,ER20-PUB001,"Publish Without Sections","Published report without sections to trigger publication validation.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/reports/publish-no-sections,FALSE,auditor-errata-01
+audit-report-21,ER00-BASE1,"Duplicated Ticker","Report with a duplicated ticker to trigger uniqueness validation.",2027/02/01 09:00,2027/11/01 09:00,http://example.org/reports/duplicate-ticker,FALSE,auditor-errata-01
+#business-rules - no singular values

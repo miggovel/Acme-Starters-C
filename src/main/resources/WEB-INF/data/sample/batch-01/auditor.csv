@@ -1,0 +1,4 @@
+key,key:userAccount,firm,highlights,solicitor
+auditor-01,user-account-auditor-01,"Ernst & Young","Senior auditor with 10 years of experience in financial and IT auditing.",TRUE
+auditor-02,user-account-auditor-02,"Deloitte","Specialist in compliance auditing for public sector organisations.",FALSE
+auditor-03,user-account-auditor-03,"KPMG","Junior auditor focused on operational risk and internal controls.",TRUE

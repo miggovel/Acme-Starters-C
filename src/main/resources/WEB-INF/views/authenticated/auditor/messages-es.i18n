@@ -1,0 +1,6 @@
+authenticated.auditor.form.firm = Empresa
+authenticated.auditor.form.highlights = Destacados
+authenticated.auditor.form.solicitor = Solicitante
+
+authenticated.auditor.form.button.create = Obtener rol de auditor
+authenticated.auditor.form.button.update = Actualizar perfil
