@@ -1,13 +1,15 @@
 key,enabled,identity,password,username
 user-account-consumer-01,true,"UserIdentity{name: '', surname: 'Consumer', email: 'peter@acme.com'}",consumer1,consumer1
-user-account-consumer-02,true,"UserIdentity{name: '', surname: 'è²¸ã‚“ã„å»ºæ¿¯ã‚ˆèŠå¼¾ãƒ†ã‚½ Î›Î¿ÏÎµÎ¼ Î¹Ï€ÏƒÎ¸Î¼', email: 'mary@acme.com'}",consumer2,consumer2
-user-account-consumer-03,true,"UserIdentity{name: '', surname: 'ä¹‹ä¹Žè·¯å¯è‰¯ á¥á²áŽáŽ­', email: 'manolo@acme.com'}",consumer3,consumer3
+user-account-consumer-02,true,"UserIdentity{name: '', surname: 'Ã¨Â²Â¸Ã£â€šâ€œÃ£Ââ€žÃ¥Â»ÂºÃ¦Â¿Â¯Ã£â€šË†Ã¨Å ÂÃ¥Â¼Â¾Ã£Æ’â€ Ã£â€šÂ½ ÃŽâ€ºÃŽÂ¿ÃÂÃŽÂµÃŽÂ¼ ÃŽÂ¹Ãâ‚¬ÃÆ’ÃŽÂ¸ÃŽÂ¼', email: 'mary@acme.com'}",consumer2,consumer2
+user-account-consumer-03,true,"UserIdentity{name: '', surname: 'Ã¤Â¹â€¹Ã¤Â¹Å½Ã¨Â·Â¯Ã¥ÂÂ¯Ã¨â€°Â¯ Ã¡ÂÂ¥Ã¡ÂÂ²Ã¡ÂÅ½Ã¡Å½Â­', email: 'manolo@acme.com'}",consumer3,consumer3
 user-account-provider-01,true,"UserIdentity{name: '', surname: 'Provider', email: 'laurel@acme.com'}",provider1,provider1
-user-account-provider-02,true,"UserIdentity{name: '', surname: 'ÐºÐ¾Ð·Ð° áƒ—áƒ®áƒ', email: 'martina@acme.com'}",provider2,provider2
-user-account-provider-03,true,"UserIdentity{name: '', surname: '××‘×˜×™×— Ã†lÃ¸zÃ¥', email: 'antonia@acme.com'}",provider3,provider3
+user-account-provider-02,true,"UserIdentity{name: '', surname: 'ÃÂºÃÂ¾ÃÂ·ÃÂ° Ã¡Æ’â€”Ã¡Æ’Â®Ã¡Æ’Â', email: 'martina@acme.com'}",provider2,provider2
+user-account-provider-03,true,"UserIdentity{name: '', surname: 'Ã—ÂÃ—â€˜Ã—ËœÃ—â„¢Ã—â€” Ãƒâ€ lÃƒÂ¸zÃƒÂ¥', email: 'antonia@acme.com'}",provider3,provider3
 user-account-spokesperson-01,true,"UserIdentity{name: '', surname: 'Provider', email: 'laurel@acme.com'}",spokesperson1,spokesperson1
-user-account-spokesperson-02,true,"UserIdentity{name: '', surname: 'è²¸ã‚“ã„å»ºæ¿¯ã‚ˆèŠå¼¾ãƒ†ã‚½ Î›Î¿ÏÎµÎ¼ Î¹Ï€ÏƒÎ¸Î¼', email: 'mary@acme.com'}",spokesperson2,spokesperson2
-user-account-spokesperson-03,true,"UserIdentity{name: '', surname: '××‘×˜×™×— Ã†lÃ¸zÃ¥', email: 'antonia@acme.com'}",spokesperson3,spokesperson3
-user-account-fundraiser-errata-01,true,"UserIdentity{name: 'Erika', surname: 'Fundraiser', email: 'fundraiser.errata1@acme.com'}",fundraiserErrata1,fundraiserErrata1
-
-
+user-account-spokesperson-02,true,"UserIdentity{name: '', surname: 'Ã¨Â²Â¸Ã£â€šâ€œÃ£Ââ€žÃ¥Â»ÂºÃ¦Â¿Â¯Ã£â€šË†Ã¨Å ÂÃ¥Â¼Â¾Ã£Æ’â€ Ã£â€šÂ½ ÃŽâ€ºÃŽÂ¿ÃÂÃŽÂµÃŽÂ¼ ÃŽÂ¹Ãâ‚¬ÃÆ’ÃŽÂ¸ÃŽÂ¼', email: 'mary@acme.com'}",spokesperson2,spokesperson2
+user-account-spokesperson-03,true,"UserIdentity{name: '', surname: 'Ã—ÂÃ—â€˜Ã—ËœÃ—â„¢Ã—â€” Ãƒâ€ lÃƒÂ¸zÃƒÂ¥', email: 'antonia@acme.com'}",spokesperson3,spokesperson3
+user-account-inventor-01,true,"UserIdentity{name: '', surname: 'petre', email: 'athoroska@acme.com'}",inventor1,inventor1
+user-account-inventor-02,true,"UserIdentity{name: '', surname: 'gil', email: 'jeibi@acme.com'}",inventor2,inventor2
+user-account-inventor-03,true,"UserIdentity{name: '', surname: 'celiacelia', email: 'waya@acme.com'}",inventor3,inventor3
+user-account-fundraiser-errata-01,true,"UserIdentity{name: '', surname: 'Fundraiser', email: 'fundraiser.errata1@acme.com'}",fundraiserErrata1,fundraiserErrata1
+user-account-auditor-errata-01,true,"UserIdentity{name: '', surname: 'Auditor', email: 'auditor.errata1@acme.com'}",auditorErrata1,auditorErrata1

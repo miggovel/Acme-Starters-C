@@ -1,3 +1,5 @@
+authenticated.auditor.form.title = Auditor form
+
 authenticated.auditor.form.firm = Firm
 authenticated.auditor.form.highlights = Highlights
 authenticated.auditor.form.solicitor = Solicitor

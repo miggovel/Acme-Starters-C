@@ -1,3 +1,5 @@
+authenticated.auditor.form.title = Perfil de auditor
+
 authenticated.auditor.form.firm = Empresa
 authenticated.auditor.form.highlights = Destacados
 authenticated.auditor.form.solicitor = Solicitante

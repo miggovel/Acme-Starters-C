@@ -1,6 +1,6 @@
 key,name,notes,expected-percentage,kind,key:strategy
 #base-entity
-tactic-00,"Support Tactic","Valid tactic used as control data for tactic errata.",10.00,SUBTLE,strategy-00
+tactic-00,"Support Tactic","Valid tactic used as control data for tactic errata.",100.01,SUBTLE,strategy-00
 #name - standard variations
 tactic-01,,"Valid note for tactic errata.",10.00,SUBTLE,strategy-00
 tactic-02,"   ","Valid note for tactic errata.",10.00,SUBTLE,strategy-00
@@ -22,4 +22,3 @@ tactic-10,"Valid Tactic","Valid note for tactic errata.",10.00,,strategy-00
 #strategy - standard variations
 tactic-11,"Valid Tactic","Valid note for tactic errata.",10.00,SUBTLE,
 #strategy - no singular values
-

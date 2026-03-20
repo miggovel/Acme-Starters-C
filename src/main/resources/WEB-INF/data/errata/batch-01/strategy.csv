@@ -1,6 +1,6 @@
 key,ticker,name,description,start-moment,end-moment,more-info,draft-mode,key:fundraiser
 #base-entity
-strategy-00,ST00-VALID1,"Support Strategy","Valid draft strategy used as support data for tactic errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/support,TRUE,fundraiser-errata-01
+strategy-00,ST00-VALID1,,"Valid draft strategy used as support data for tactic errata.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/support,TRUE,fundraiser-errata-01
 #ticker - standard variations
 strategy-01,,"Green Infrastructure","Funding plan for certified green infrastructure projects in Europe.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/ticker-empty,TRUE,fundraiser-errata-01
 strategy-02,A123-ABCDE,"Green Infrastructure","Funding plan for certified green infrastructure projects in Europe.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/ticker-a123,TRUE,fundraiser-errata-01
@@ -23,7 +23,7 @@ strategy-14,ER14-STRAT05,"Valid Strategy","   ",2027/01/15 09:00,2027/10/15 09:0
 strategy-15,ER15-STRAT06,"Valid Strategy","LLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLL",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/description-long,TRUE,fundraiser-errata-01
 #description - no singular values
 #startMoment - standard variations
-strategy-16,ER16-STRAT07,"Valid Strategy","Valid draft strategy with a start moment in the past.",2025/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/start-past,TRUE,fundraiser-errata-01
+strategy-16,ER16-STRAT07,"Valid Strategy","Valid draft strategy with a start moment in the past.",1999/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/start-past,TRUE,fundraiser-errata-01
 #startMoment - no singular values
 #endMoment - standard variations
 strategy-17,ER17-STRAT08,"Valid Strategy","Valid draft strategy with an end moment before the start moment.",2027/10/15 09:00,2027/01/15 09:00,http://example.org/strategies/end-before,TRUE,fundraiser-errata-01
@@ -32,12 +32,11 @@ strategy-17,ER17-STRAT08,"Valid Strategy","Valid draft strategy with an end mome
 strategy-18,ER18-STRAT09,"Valid Strategy","Valid draft strategy with an invalid URL.",2027/01/15 09:00,2027/10/15 09:00,not-a-url,TRUE,fundraiser-errata-01
 #moreInfo - no singular values
 #draftMode - standard variations
-strategy-19,ER19-STRAT10,"Valid Strategy","Valid draft strategy with a missing draft flag.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/draft-missing,,fundraiser-errata-01
+strategy-19,ER19-STRAT10,"Valid Strategy","Published strategy without tactics to force a draft-mode-related validation error while keeping the CSV loadable.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/draft-control,FALSE,fundraiser-errata-01
 #draftMode - no singular values
 #fundraiser - standard variations
 strategy-20,ER20-STRAT11,"Valid Strategy","Valid draft strategy with a missing fundraiser.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/fundraiser-missing,TRUE,
 #fundraiser - no singular values
 #business-rules - standard variations
 strategy-21,ER21-PUB001,"Publish Without Tactics","Published strategy without tactics to trigger publication validation.",2027/01/15 09:00,2027/10/15 09:00,http://example.org/strategies/publish-without-tactics,FALSE,fundraiser-errata-01
-strategy-22,ST00-VALID1,"Duplicated Ticker","Strategy with a duplicated ticker to trigger uniqueness validation.",2027/02/01 09:00,2027/11/01 09:00,http://example.org/strategies/duplicate-ticker,TRUE,fundraiser-errata-01
-
+strategy-22,ST00-VALID1,"Duplicated Ticker","Strategy with a duplicated ticker to trigger uniqueness validation.",2027/02/01 09:00,2027/11/01 09:00,not-a-url,TRUE,fundraiser-errata-01
