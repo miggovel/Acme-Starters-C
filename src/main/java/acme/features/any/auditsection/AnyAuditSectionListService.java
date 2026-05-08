@@ -37,7 +37,7 @@ public class AnyAuditSectionListService extends AbstractService<Any, AuditSectio
 		reportId = super.getRequest().getData("auditReportId", int.class);
 		report = this.repository.findAuditReportById(reportId);
 
-		status = report != null && report.isPublished();
+		status = report != null && !report.isDraftMode();
 
 		super.setAuthorised(status);
 	}

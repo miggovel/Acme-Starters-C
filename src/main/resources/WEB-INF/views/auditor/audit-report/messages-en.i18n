@@ -7,12 +7,15 @@ auditor.audit-report.form.description = Description
 auditor.audit-report.form.moreInfo = More info
 auditor.audit-report.form.startMoment = Start moment
 auditor.audit-report.form.endMoment = End moment
-auditor.audit-report.form.published = Published
+auditor.audit-report.form.draftMode = Draft Mode
+auditor.audit-report.form.monthsActive = Months Active
+auditor.audit-report.form.hours = Hours
 
 auditor.audit-report.form.button.sections = Audit sections
 auditor.audit-report.form.button.create = Create
 auditor.audit-report.form.button.update = Update
 auditor.audit-report.form.button.delete = Delete
+auditor.audit-report.form.button.draftMode = Draft Mode
 auditor.audit-report.form.button.publish = Publish
 
 auditor.audit-report.error.no-sections = The report must have at least one section before publishing.

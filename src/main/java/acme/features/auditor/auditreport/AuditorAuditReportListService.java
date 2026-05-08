@@ -38,7 +38,7 @@ public class AuditorAuditReportListService extends AbstractService<Auditor, Audi
 
 	@Override
 	public void unbind() {
-		super.unbindObjects(this.auditReports, "ticker", "name", "startMoment", "endMoment", "published", "description");
+		super.unbindObjects(this.auditReports, "ticker", "name", "startMoment", "endMoment", "draftMode", "description");
 		super.getResponse().addGlobal("showCreate", true);
 	}
 }

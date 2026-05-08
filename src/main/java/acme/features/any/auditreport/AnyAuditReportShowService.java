@@ -30,7 +30,7 @@ public class AnyAuditReportShowService extends AbstractService<Any, AuditReport>
 	public void authorise() {
 		boolean status;
 
-		status = this.report != null && this.report.isPublished();
+		status = this.report != null && !this.report.isDraftMode();
 
 		super.setAuthorised(status);
 	}
@@ -39,12 +39,12 @@ public class AnyAuditReportShowService extends AbstractService<Any, AuditReport>
 	public void unbind() {
 		Tuple tuple;
 
-		tuple = super.unbindObject(this.report, "ticker", "name", "description", "startMoment", "endMoment");
+		tuple = super.unbindObject(this.report, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "monthsActive", "hours");
 
-		// ✔️ navegación
+		// navegación
 		tuple.put("auditReportId", this.report.getId());
 
-		// ✔️ perfil auditor (MEJORADO)
+		// perfil auditor
 		tuple.put("auditorFirm", this.report.getAuditor().getFirm());
 		tuple.put("auditorHighlights", this.report.getAuditor().getHighlights());
 		tuple.put("auditorSolicitor", this.report.getAuditor().isSolicitor());

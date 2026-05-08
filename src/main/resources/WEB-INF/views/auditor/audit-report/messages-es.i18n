@@ -7,13 +7,16 @@ auditor.audit-report.form.description = Descripción
 auditor.audit-report.form.moreInfo = Más información
 auditor.audit-report.form.startMoment = Fecha de inicio
 auditor.audit-report.form.endMoment = Fecha de fin
-auditor.audit-report.form.published = Publicado
+auditor.audit-report.form.draftMode = Modo borrador
+auditor.audit-report.form.monthsActive = Meses Activo
+auditor.audit-report.form.hours = Horas
 
 auditor.audit-report.form.button.sections = Secciones de auditoría
 auditor.audit-report.form.button.create = Crear
 auditor.audit-report.form.button.update = Actualizar
 auditor.audit-report.form.button.delete = Eliminar
-auditor.audit-report.form.button.publish = Publicar
+auditor.audit-report.form.button.draftMode = Borrador
+auditor.audit-report.form.button.publish = Publicar	
 
 auditor.audit-report.error.no-sections = El informe debe tener al menos una sección antes de publicarse.
 auditor.audit-report.error.duplicated = El ticker ya está en uso.

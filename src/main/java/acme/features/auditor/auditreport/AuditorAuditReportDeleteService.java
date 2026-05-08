@@ -39,7 +39,7 @@ public class AuditorAuditReportDeleteService extends AbstractService<Auditor, Au
 
 		auditorId = super.getRequest().getPrincipal().getActiveRealm().getId();
 
-		status = this.auditReport != null && !this.auditReport.isPublished() && this.auditReport.getAuditor().getId() == auditorId;
+		status = this.auditReport != null && this.auditReport.isDraftMode() && this.auditReport.getAuditor().getId() == auditorId;
 
 		super.setAuthorised(status);
 	}
@@ -68,6 +68,6 @@ public class AuditorAuditReportDeleteService extends AbstractService<Auditor, Au
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "published");
+		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "draftMode", "hours", "monthsActive");
 	}
 }

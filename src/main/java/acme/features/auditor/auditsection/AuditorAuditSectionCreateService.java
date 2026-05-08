@@ -36,9 +36,8 @@ public class AuditorAuditSectionCreateService extends AbstractService<Auditor, A
 		this.section = super.newObject(AuditSection.class);
 		this.section.setName("");
 		this.section.setNotes("");
-		this.section.setHours(0);
-		this.section.setKind(SectionKind.PRELIMINARY);
-		this.section.setPublished(false);
+		this.section.setHours(null);
+		this.section.setKind(null);
 		this.section.setAuditReport(report);
 	}
 
@@ -54,7 +53,7 @@ public class AuditorAuditSectionCreateService extends AbstractService<Auditor, A
 
 		auditorId = super.getRequest().getPrincipal().getActiveRealm().getId();
 
-		status = report != null && !report.isPublished() && report.getAuditor().getId() == auditorId;
+		status = report != null && report.isDraftMode() && report.getAuditor().getId() == auditorId;
 
 		super.setAuthorised(status);
 	}
@@ -81,9 +80,10 @@ public class AuditorAuditSectionCreateService extends AbstractService<Auditor, A
 
 		kinds = SelectChoices.from(SectionKind.class, this.section.getKind());
 
-		tuple = super.unbindObject(this.section, "name", "notes", "hours", "kind", "published");
+		tuple = super.unbindObject(this.section, "name", "notes", "hours", "kind");
 
 		tuple.put("auditReportId", this.section.getAuditReport().getId());
 		tuple.put("kinds", kinds);
+		tuple.put("draftMode", this.section.getAuditReport().isDraftMode());
 	}
 }

@@ -31,4 +31,7 @@ public interface AuditorAuditReportRepository extends AbstractRepository {
 
 	@Query("select s from AuditSection s where s.auditReport.id = :reportId")
 	Collection<AuditSection> findAuditSectionsByReportId(int reportId);
+
+	@Query("select sum(s.hours) from AuditSection s where s.auditReport.id = :id")
+	Integer computeHours(int id);
 }

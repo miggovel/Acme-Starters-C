@@ -36,7 +36,7 @@ public class AuditorAuditSectionDeleteService extends AbstractService<Auditor, A
 
 		auditorId = super.getRequest().getPrincipal().getActiveRealm().getId();
 
-		status = this.section != null && !this.section.isPublished() && !this.section.getAuditReport().isPublished() && this.section.getAuditReport().getAuditor().getId() == auditorId;
+		status = this.section != null && this.section.getAuditReport().isDraftMode() && this.section.getAuditReport().getAuditor().getId() == auditorId;
 
 		super.setAuthorised(status);
 	}
@@ -58,6 +58,6 @@ public class AuditorAuditSectionDeleteService extends AbstractService<Auditor, A
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.section, "name", "notes", "hours", "kind", "published");
+		super.unbindObject(this.section, "name", "notes", "hours", "kind");
 	}
 }
