@@ -1,10 +1,11 @@
 auditor.audit-section.list.title=Secciones de auditoría
+auditor.audit-section.form.title=Secciones de auditoría
 
 auditor.audit-section.form.name=Nombre
 auditor.audit-section.form.notes=Notas
 auditor.audit-section.form.hours=Horas
 auditor.audit-section.form.kind=Tipo
-auditor.audit-section.form.published=Publicado
+auditor.audit-section.form.draftMode=Borrador
 
 # ENUM
 audit-section.kind.PRELIMINARY=Preliminar

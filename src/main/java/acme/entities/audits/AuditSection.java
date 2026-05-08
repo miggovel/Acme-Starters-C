@@ -47,10 +47,6 @@ public class AuditSection extends AbstractEntity {
 	@Column
 	private SectionKind			kind;
 
-	@Mandatory
-	@Column
-	private boolean				published;
-
 	// Relationships -------------------------------------------------------
 
 	@Mandatory

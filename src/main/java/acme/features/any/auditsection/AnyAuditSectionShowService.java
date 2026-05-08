@@ -32,7 +32,7 @@ public class AnyAuditSectionShowService extends AbstractService<Any, AuditSectio
 	public void authorise() {
 		boolean status;
 
-		status = this.section != null && this.section.isPublished();
+		status = this.section != null && !this.section.getAuditReport().isDraftMode();
 
 		super.setAuthorised(status);
 	}
@@ -44,7 +44,7 @@ public class AnyAuditSectionShowService extends AbstractService<Any, AuditSectio
 
 		kinds = SelectChoices.from(SectionKind.class, this.section.getKind());
 
-		tuple = super.unbindObject(this.section, "name", "notes", "hours", "kind", "published");
+		tuple = super.unbindObject(this.section, "name", "notes", "hours", "kind");
 		tuple.put("kinds", kinds);
 	}
 }

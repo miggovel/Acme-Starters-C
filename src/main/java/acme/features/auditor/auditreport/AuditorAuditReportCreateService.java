@@ -36,7 +36,7 @@ public class AuditorAuditReportCreateService extends AbstractService<Auditor, Au
 		this.auditReport.setStartMoment(null);
 		this.auditReport.setEndMoment(null);
 		this.auditReport.setMoreInfo("");
-		this.auditReport.setPublished(false);
+		this.auditReport.setDraftMode(true);
 		this.auditReport.setAuditor(auditor);
 	}
 
@@ -75,6 +75,6 @@ public class AuditorAuditReportCreateService extends AbstractService<Auditor, Au
 
 	@Override
 	public void unbind() {
-		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo", "published");
+		super.unbindObject(this.auditReport, "ticker", "name", "description", "startMoment", "endMoment", "moreInfo");
 	}
 }

@@ -8,6 +8,8 @@ any.audit-report.form.description = Description
 any.audit-report.form.moreInfo = More info
 any.audit-report.form.startMoment = Start moment
 any.audit-report.form.endMoment = End moment
+any.audit-report.form.monthsActive = Months active
+any.audit-report.form.hours = Hours
 
 any.audit-report.form.auditorFirm = Auditor firm
 any.audit-report.form.auditorHighlights = Highlights
