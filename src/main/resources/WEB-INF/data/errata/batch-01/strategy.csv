@@ -27,6 +27,8 @@ strategy-16,ER16-STRAT07,"Valid Strategy","Valid draft strategy with a start mom
 #startMoment - no singular values
 #endMoment - standard variations
 strategy-17,ER17-STRAT08,"Valid Strategy","Valid draft strategy with an end moment before the start moment.",2027/10/15 09:00,2027/01/15 09:00,http://example.org/strategies/end-before,TRUE,fundraiser-errata-01
+strategy-23,ER17-STRAT08,"Valid Strategy","Valid draft strategy with an end moment before the start moment.",2027/10/15 09:00,2300/01/15 09:00,http://example.org/strategies/end-before,TRUE,fundraiser-errata-01
+
 #endMoment - no singular values
 #moreInfo - standard variations
 strategy-18,ER18-STRAT09,"Valid Strategy","Valid draft strategy with an invalid URL.",2027/01/15 09:00,2027/10/15 09:00,not-a-url,TRUE,fundraiser-errata-01
